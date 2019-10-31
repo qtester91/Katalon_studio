@@ -15,17 +15,26 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Dutchie/Open Dutchie homepage'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Dutchie/Open Dutchie homepage'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Dutchie/searchBar'), 5)
+//Verify that search bar is displayed
+WebUI.verifyElementPresent(findTestObject('Dutchie/Homepage/searchBar'), 5)
 
-WebUI.sendKeys(findTestObject('Dutchie/searchBar'), 'Seattle')
+//Insert 'Seattle' in search bar
+WebUI.sendKeys(findTestObject('Dutchie/Homepage/searchBar'), 'Seattle')
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Dutchie/FirstDispensaryInDropDown'))
+//Navigate and select first item on the list
+WebUI.scrollToElement(findTestObject('Dutchie/Homepage/FirstDispensaryInDropDown'), 2)
 
-WebUI.click(findTestObject('Dutchie/searchButton'))
+WebUI.click(findTestObject('Dutchie/Homepage/FirstDispensaryInDropDown'))
 
-WebUI.waitForPageLoad(5)
+WebUI.delay(5)
+
+WebUI.verifyElementPresent(findTestObject('Dutchie/Search results/Seattle,WA'), 2)
+
+WebUI.verifyTextPresent('Dispensaries ', false)
+
+WebUI.click(findTestObject('Dutchie/Dispensary page/Dutchie logo'))
 

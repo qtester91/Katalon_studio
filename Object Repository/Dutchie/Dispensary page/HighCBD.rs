@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>HighCBD</name>
+   <tag></tag>
+   <elementGuidId>318f3f43-826f-4f63-ae29-b94c2242c646</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>#highCBD</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

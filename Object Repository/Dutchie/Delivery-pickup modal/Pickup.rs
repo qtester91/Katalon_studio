@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Pickup</name>
+   <tag></tag>
+   <elementGuidId>a5f11dba-5e76-46ee-9701-33758c5bb57f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[text()='Pickup']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

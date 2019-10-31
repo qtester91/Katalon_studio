@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Seattle,WA</name>
+   <tag></tag>
+   <elementGuidId>062343c7-d493-4f13-9c8f-5518e1c5f013</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;navigation-container&quot;]/div[1]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

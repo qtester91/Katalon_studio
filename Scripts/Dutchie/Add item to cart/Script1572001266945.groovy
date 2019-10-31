@@ -19,11 +19,29 @@ WebUI.callTestCase(findTestCase('Dutchie/Open Blooming Deals dispensary'), [:], 
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Dutchie/CannabisNationItem'))
+//Click on first item on the list
+WebUI.click(findTestObject('Dutchie/Dispensary page/CannabisNationItem'))
 
 WebUI.switchToDefaultContent()
 
-WebUI.verifyElementPresent(findTestObject('Dutchie/AddToCart'), 2)
+//Verify if 'Add to cart' button is displayed
+WebUI.verifyElementPresent(findTestObject('Dutchie/Product modal/AddToCart_xpath'), 2)
 
-WebUI.click(findTestObject('Dutchie/AddToCart'))
+WebUI.delay(2)
+
+//Add item to a cart
+WebUI.click(findTestObject('Dutchie/Product modal/AddToCart_xpath'))
+
+WebUI.switchToDefaultContent()
+
+//Select pickup option
+WebUI.click(findTestObject('Dutchie/Delivery-pickup modal/Pickup'))
+
+//Check cart is displayed 
+WebUI.verifyElementPresent(findTestObject('Dutchie/Dispensary page/BasketContent'), 5)
+
+//Check if cart has correct number displayed
+WebUI.verifyElementText(findTestObject('Dutchie/Dispensary page/BasketContent'), '1')
+
+
 

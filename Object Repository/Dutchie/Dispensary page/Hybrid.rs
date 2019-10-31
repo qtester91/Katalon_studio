@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Hybrid</name>
+   <tag></tag>
+   <elementGuidId>8de5a3be-7b00-4876-a559-cb4b015ba46f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;hybrid&quot;]/span/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>/html/body/div[1]/div[1]/div[2]/div[2]/div[5]/div[2]/div[1]/div/div/div[6]/div[1]/label/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

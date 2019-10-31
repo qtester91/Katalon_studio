@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>searchBar</name>
+   <tag></tag>
+   <elementGuidId>4b5a41dc-15c0-4cc4-89f6-80d5d09367f5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='homeSearchBar']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

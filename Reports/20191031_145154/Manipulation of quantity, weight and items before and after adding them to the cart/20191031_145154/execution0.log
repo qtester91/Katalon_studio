@@ -1,0 +1,1053 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-10-31T14:52:00</date>
+  <millis>1572529920855</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Manipulation of quantity, weight and items before and after adding them to the cart</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Manipulation of quantity, weight and items before and after adding them to the cart</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Manipulation of quantity, weight and items before and after adding them to the cart</property>
+</record>
+<record>
+  <date>2019-10-31T14:52:00</date>
+  <millis>1572529920870</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Bojana-PC - BOJANA</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Bojana-PC - BOJANA</property>
+</record>
+<record>
+  <date>2019-10-31T14:52:00</date>
+  <millis>1572529920870</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-10-31T14:52:00</date>
+  <millis>1572529920871</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.56.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.56.1</property>
+</record>
+<record>
+  <date>2019-10-31T14:52:00</date>
+  <millis>1572529920872</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 7.0.3.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">7.0.3.1</property>
+</record>
+<record>
+  <date>2019-10-31T14:52:01</date>
+  <millis>1572529921127</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Dutchie/Change quantity of product before adding it to the cart</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Dutchie/Change quantity of product before adding it to the cart</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Dutchie/Change quantity of product before adding it to the cart</property>
+  <property name="source">C:\\Users\\Bojana-PC\\git\\Katalon_studio\\Test Cases\\Dutchie\\Change quantity of product before adding it to the cart.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-10-31T14:52:01</date>
+  <millis>1572529921490</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : callTestCase(findTestCase(\&amp;quot;Dutchie/Open Blooming Deals dispensary\&amp;quot;), [:], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-10-31T14:52:01</date>
+  <millis>1572529921678</millis>
+  <sequence>10</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Dutchie/Open Blooming Deals dispensary</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="name">Test Cases/Dutchie/Open Blooming Deals dispensary</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Dutchie/Open Blooming Deals dispensary</property>
+  <property name="source">C:\\Users\\Bojana-PC\\git\\Katalon_studio\\Test Cases\\Dutchie\\Open Blooming Deals dispensary.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-10-31T14:52:01</date>
+  <millis>1572529921910</millis>
+  <sequence>12</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : callTestCase(findTestCase(\&amp;quot;Dutchie/Open Dutchie homepage\&amp;quot;), [:], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-10-31T14:52:01</date>
+  <millis>1572529921980</millis>
+  <sequence>15</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Dutchie/Open Dutchie homepage</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="name">Test Cases/Dutchie/Open Dutchie homepage</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Dutchie/Open Dutchie homepage</property>
+  <property name="source">C:\\Users\\Bojana-PC\\git\\Katalon_studio\\Test Cases\\Dutchie\\Open Dutchie homepage.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-10-31T14:52:02</date>
+  <millis>1572529922170</millis>
+  <sequence>17</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;https://qa.dutchie.dev/home\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-10-31T14:52:02</date>
+  <millis>1572529922341</millis>
+  <sequence>19</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:02</date>
+  <millis>1572529922390</millis>
+  <sequence>21</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:08</date>
+  <millis>1572529928752</millis>
+  <sequence>23</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = d7cc10000b3d1da070981326c36a5990</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="sessionId">d7cc10000b3d1da070981326c36a5990</property>
+</record>
+<record>
+  <date>2019-10-31T14:52:08</date>
+  <millis>1572529928769</millis>
+  <sequence>24</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 78.0.3904.70</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="browser">Chrome 78.0.3904.70</property>
+</record>
+<record>
+  <date>2019-10-31T14:52:08</date>
+  <millis>1572529928769</millis>
+  <sequence>25</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-10-31T14:52:08</date>
+  <millis>1572529928770</millis>
+  <sequence>26</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2019-10-31T14:52:08</date>
+  <millis>1572529928770</millis>
+  <sequence>27</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-10-31T14:52:10</date>
+  <millis>1572529930411</millis>
+  <sequence>29</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;https://qa.dutchie.dev/home&amp;apos;</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:10</date>
+  <millis>1572529930412</millis>
+  <sequence>30</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;https://qa.dutchie.dev/home\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:10</date>
+  <millis>1572529930412</millis>
+  <sequence>31</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-10-31T14:52:14</date>
+  <millis>1572529934557</millis>
+  <sequence>33</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:14</date>
+  <millis>1572529934557</millis>
+  <sequence>34</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:14</date>
+  <millis>1572529934557</millis>
+  <sequence>35</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(\&amp;quot;Dutchie/Homepage/searchBar\&amp;quot;), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-10-31T14:52:14</date>
+  <millis>1572529934558</millis>
+  <sequence>36</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>NOT_RUN: verifyElementPresent(findTestObject(\&amp;quot;Dutchie/Homepage/searchBar\&amp;quot;), 10)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:14</date>
+  <millis>1572529934559</millis>
+  <sequence>37</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(\&amp;quot;Dutchie/Homepage/searchBar\&amp;quot;), 10)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:14</date>
+  <millis>1572529934559</millis>
+  <sequence>38</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-10-31T14:52:14</date>
+  <millis>1572529934559</millis>
+  <sequence>39</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>NOT_RUN: closeBrowser()</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:14</date>
+  <millis>1572529934559</millis>
+  <sequence>40</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:14</date>
+  <millis>1572529934559</millis>
+  <sequence>41</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Dutchie/Open Dutchie homepage</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:14</date>
+  <millis>1572529934560</millis>
+  <sequence>42</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Dutchie/Open Dutchie homepage</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:14</date>
+  <millis>1572529934564</millis>
+  <sequence>43</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Call Test Case &amp;apos;Test Cases/Dutchie/Open Dutchie homepage&amp;apos; successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:14</date>
+  <millis>1572529934565</millis>
+  <sequence>44</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : callTestCase(findTestCase(\&amp;quot;Dutchie/Open Dutchie homepage\&amp;quot;), [:], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:14</date>
+  <millis>1572529934565</millis>
+  <sequence>45</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : scrollToElement(findTestObject(\&amp;quot;Dutchie/Homepage/BloomingDealsLink\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-10-31T14:52:14</date>
+  <millis>1572529934654</millis>
+  <sequence>49</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:15</date>
+  <millis>1572529935234</millis>
+  <sequence>55</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;Object Repository/Dutchie/Homepage/BloomingDealsLink&amp;apos; successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:15</date>
+  <millis>1572529935234</millis>
+  <sequence>56</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : scrollToElement(findTestObject(\&amp;quot;Dutchie/Homepage/BloomingDealsLink\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:15</date>
+  <millis>1572529935235</millis>
+  <sequence>57</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Dutchie/Homepage/BloomingDealsLink\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-10-31T14:52:15</date>
+  <millis>1572529935721</millis>
+  <sequence>66</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Dutchie/Homepage/BloomingDealsLink&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:15</date>
+  <millis>1572529935722</millis>
+  <sequence>67</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Dutchie/Homepage/BloomingDealsLink\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:15</date>
+  <millis>1572529935722</millis>
+  <sequence>68</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForPageLoad(5)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-10-31T14:52:15</date>
+  <millis>1572529935821</millis>
+  <sequence>70</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Wait for page load successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:15</date>
+  <millis>1572529935821</millis>
+  <sequence>71</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForPageLoad(5)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:15</date>
+  <millis>1572529935822</millis>
+  <sequence>72</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Dutchie/Open Blooming Deals dispensary</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:15</date>
+  <millis>1572529935822</millis>
+  <sequence>73</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Dutchie/Open Blooming Deals dispensary</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:15</date>
+  <millis>1572529935822</millis>
+  <sequence>74</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Call Test Case &amp;apos;Test Cases/Dutchie/Open Blooming Deals dispensary&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:15</date>
+  <millis>1572529935822</millis>
+  <sequence>75</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : callTestCase(findTestCase(\&amp;quot;Dutchie/Open Blooming Deals dispensary\&amp;quot;), [:], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:15</date>
+  <millis>1572529935822</millis>
+  <sequence>76</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Dutchie/Dispensary page/Cannabis Nation Cherry Chem\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-10-31T14:52:18</date>
+  <millis>1572529938236</millis>
+  <sequence>85</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Dutchie/Dispensary page/Cannabis Nation Cherry Chem&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:18</date>
+  <millis>1572529938236</millis>
+  <sequence>86</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Dutchie/Dispensary page/Cannabis Nation Cherry Chem\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:18</date>
+  <millis>1572529938236</millis>
+  <sequence>87</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : switchToDefaultContent()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">23</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-10-31T14:52:18</date>
+  <millis>1572529938283</millis>
+  <sequence>89</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : switchToDefaultContent()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:18</date>
+  <millis>1572529938284</millis>
+  <sequence>90</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Dutchie/Product modal/SelectQuantity\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-10-31T14:52:19</date>
+  <millis>1572529939195</millis>
+  <sequence>99</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Dutchie/Product modal/SelectQuantity&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:19</date>
+  <millis>1572529939196</millis>
+  <sequence>100</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Dutchie/Product modal/SelectQuantity\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:19</date>
+  <millis>1572529939196</millis>
+  <sequence>101</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : scrollToElement(findTestObject(\&amp;quot;Dutchie/Product modal/10 items\&amp;quot;), 2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-10-31T14:52:19</date>
+  <millis>1572529939483</millis>
+  <sequence>110</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;Object Repository/Dutchie/Product modal/10 items&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:19</date>
+  <millis>1572529939483</millis>
+  <sequence>111</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : scrollToElement(findTestObject(\&amp;quot;Dutchie/Product modal/10 items\&amp;quot;), 2)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:19</date>
+  <millis>1572529939484</millis>
+  <sequence>112</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-10-31T14:52:21</date>
+  <millis>1572529941490</millis>
+  <sequence>114</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:21</date>
+  <millis>1572529941492</millis>
+  <sequence>115</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:21</date>
+  <millis>1572529941493</millis>
+  <sequence>116</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Dutchie/Product modal/10 items\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-10-31T14:52:21</date>
+  <millis>1572529941873</millis>
+  <sequence>125</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Dutchie/Product modal/10 items&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:21</date>
+  <millis>1572529941874</millis>
+  <sequence>126</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Dutchie/Product modal/10 items\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:21</date>
+  <millis>1572529941874</millis>
+  <sequence>127</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-10-31T14:52:23</date>
+  <millis>1572529943877</millis>
+  <sequence>129</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:23</date>
+  <millis>1572529943880</millis>
+  <sequence>130</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:23</date>
+  <millis>1572529943880</millis>
+  <sequence>131</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Dutchie/Product modal/AddToCart_xpath\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-10-31T14:52:24</date>
+  <millis>1572529944354</millis>
+  <sequence>140</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Dutchie/Product modal/AddToCart_xpath&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:24</date>
+  <millis>1572529944354</millis>
+  <sequence>141</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Dutchie/Product modal/AddToCart_xpath\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:24</date>
+  <millis>1572529944354</millis>
+  <sequence>142</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : switchToDefaultContent()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">39</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-10-31T14:52:24</date>
+  <millis>1572529944387</millis>
+  <sequence>144</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : switchToDefaultContent()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:24</date>
+  <millis>1572529944388</millis>
+  <sequence>145</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Dutchie/Delivery-pickup modal/Pickup\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">42</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2019-10-31T14:52:24</date>
+  <millis>1572529944982</millis>
+  <sequence>154</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Dutchie/Delivery-pickup modal/Pickup&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:24</date>
+  <millis>1572529944983</millis>
+  <sequence>155</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Dutchie/Delivery-pickup modal/Pickup\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:24</date>
+  <millis>1572529944983</millis>
+  <sequence>156</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyTextPresent(\&amp;quot;Qty: 10 - $72.00\&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">45</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2019-10-31T14:52:25</date>
+  <millis>1572529945887</millis>
+  <sequence>159</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Qty: 10 - $72.00&amp;apos; is present on page </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:25</date>
+  <millis>1572529945888</millis>
+  <sequence>160</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyTextPresent(\&amp;quot;Qty: 10 - $72.00\&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:25</date>
+  <millis>1572529945888</millis>
+  <sequence>161</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Dutchie/Dispensary page/Dutchie logo\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">47</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2019-10-31T14:52:26</date>
+  <millis>1572529946336</millis>
+  <sequence>170</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Dutchie/Dispensary page/Dutchie logo&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:26</date>
+  <millis>1572529946336</millis>
+  <sequence>171</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Dutchie/Dispensary page/Dutchie logo\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:26</date>
+  <millis>1572529946336</millis>
+  <sequence>172</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Dutchie/Change quantity of product before adding it to the cart</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:26</date>
+  <millis>1572529946337</millis>
+  <sequence>173</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Dutchie/Change quantity of product before adding it to the cart</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:26</date>
+  <millis>1572529946343</millis>
+  <sequence>174</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Dutchie/Remove item from basket</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Dutchie/Remove item from basket</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Dutchie/Remove item from basket</property>
+  <property name="source">C:\\Users\\Bojana-PC\\git\\Katalon_studio\\Test Cases\\Dutchie\\Remove item from basket.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-10-31T14:52:26</date>
+  <millis>1572529946517</millis>
+  <sequence>176</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : callTestCase(findTestCase(\&amp;quot;Dutchie/Change weight of item before adding it to the cart\&amp;quot;), [:], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-10-31T14:52:26</date>
+  <millis>1572529946517</millis>
+  <sequence>177</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>NOT_RUN: callTestCase(findTestCase(\&amp;quot;Dutchie/Change weight of item before adding it to the cart\&amp;quot;), [:], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:26</date>
+  <millis>1572529946518</millis>
+  <sequence>178</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : callTestCase(findTestCase(\&amp;quot;Dutchie/Change weight of item before adding it to the cart\&amp;quot;), [:], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-31T14:52:26</date>
+  <millis>1572529946518</millis>
+  <sequence>179</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Dutchie/Dispensary page/BasketContent\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">2</property>
+</record>

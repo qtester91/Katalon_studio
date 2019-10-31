@@ -17,13 +17,17 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Dutchie/Open Blooming Deals dispensary'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Dutchie/WorkingHours'))
+//Click on 'Working hours' link
+WebUI.click(findTestObject('Dutchie/Dispensary page/WorkingHours'))
 
+//Verify that expected text is displayed on the page
 WebUI.verifyTextPresent('Pickup', false)
 
 WebUI.verifyTextPresent('Delivery', false)
 
 WebUI.verifyTextPresent('Location', false)
 
-WebUI.closeBrowser()
+//Return to Dutchie homepage
+
+WebUI.click(findTestObject('Dutchie/Dispensary page/Dutchie logo'))
 

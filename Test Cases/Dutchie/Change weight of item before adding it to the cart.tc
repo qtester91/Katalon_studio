@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Change weight of item before adding it to the cart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f2b6cc02-b905-4668-b25d-97c4f897cfcf</testCaseGuid>
+</TestCaseEntity>

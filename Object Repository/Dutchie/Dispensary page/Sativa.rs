@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Sativa</name>
+   <tag></tag>
+   <elementGuidId>092b9199-973b-48f2-af15-dfb511a65d79</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;sativa&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>document.querySelector(&quot;#sativa&quot;)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

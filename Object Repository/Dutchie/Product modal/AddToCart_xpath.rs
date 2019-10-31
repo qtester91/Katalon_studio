@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>AddToCart_xpath</name>
+   <tag></tag>
+   <elementGuidId>f4a80e7f-af3f-493f-82c7-a5057bbfdd7d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[4]/div/div/div[2]/div[2]/div/form/div/div[1]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

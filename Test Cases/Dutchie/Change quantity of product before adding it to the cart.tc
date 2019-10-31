@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Change quantity of product before adding it to the cart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>083373e6-af56-454a-ad36-cc12920eeba3</testCaseGuid>
+</TestCaseEntity>

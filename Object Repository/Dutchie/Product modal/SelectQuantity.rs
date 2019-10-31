@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SelectQuantity</name>
+   <tag></tag>
+   <elementGuidId>4db7ba73-a504-41b1-8d42-0b412ef9b8d2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[4]/div/div/div[2]/div[2]/div/form/div/div[1]/div[2]/span/select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

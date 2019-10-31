@@ -19,7 +19,7 @@ WebUI.openBrowser('https://qa.dutchie.dev/home')
 
 WebUI.maximizeWindow()
 
-not_run: WebUI.verifyElementPresent(findTestObject('Dutchie/searchBar'), 10)
+not_run: WebUI.verifyElementPresent(findTestObject('Dutchie/Homepage/searchBar'), 10)
 
 not_run: WebUI.closeBrowser()
 

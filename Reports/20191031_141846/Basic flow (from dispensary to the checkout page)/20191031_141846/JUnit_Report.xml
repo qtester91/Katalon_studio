@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Basic flow (from dispensary to the checkout page)" time="32.487" tests="3" failures="0" errors="0">
+   <testsuite name="Basic flow (from dispensary to the checkout page)" tests="3" failures="0" errors="0" time="32.487" timestamp="2019-10-31 14:18:52" hostname="Bojana-PC - BOJANA" id="Test Suites/Basic flow (from dispensary to the checkout page)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Bojana-PC\\git\\Katalon_studio\\Reports\\20191031_141846\\Basic flow (from dispensary to the checkout page)\\20191031_141846"/>
+         <property name="logFiles" value="C:\\Users\\Bojana-PC\\git\\Katalon_studio\\Reports\\20191031_141846\\Basic flow (from dispensary to the checkout page)\\20191031_141846\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Bojana-PC - BOJANA"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.3.1"/>
+         <property name="browser" value="Chrome 78.0.3904.70"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="910b61ef392f144794d19fac465ce3bf"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Dutchie/Add item to cart" time="23.775" classname="Test Cases/Dutchie/Add item to cart" status="PASSED">
+         <system-out><![CDATA[2019-10-31 14:18:53 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Add item to cart: Test Cases/Dutchie/Add item to cart
+
+2019-10-31 14:18:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Dutchie/Open Blooming Deals dispensary"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Dutchie/Open Blooming Deals dispensary' successfully
+
+2019-10-31 14:18:53 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Open Blooming Deals dispensary: Test Cases/Dutchie/Open Blooming Deals dispensary
+
+2019-10-31 14:18:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Dutchie/Open Dutchie homepage' successfully
+
+2019-10-31 14:18:53 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Open Dutchie homepage: Test Cases/Dutchie/Open Dutchie homepage
+
+2019-10-31 14:18:54 - [TEST_STEP][PASSED] - openBrowser("https://qa.dutchie.dev/home"): Browser is opened with url: 'https://qa.dutchie.dev/home'
+
+2019-10-31 14:18:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-10-31 14:18:54 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-10-31 14:19:01 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.dutchie.dev/home'
+
+2019-10-31 14:19:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-10-31 14:19:06 - [MESSAGE][PASSED] - Current window maximized
+
+2019-10-31 14:19:06 - [TEST_STEP][NOT_RUN] - verifyElementPresent(findTestObject("Dutchie/Homepage/searchBar"), 10): NOT_RUN: verifyElementPresent(findTestObject("Dutchie/Homepage/searchBar"), 10)
+
+2019-10-31 14:19:06 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent(findTestObject("Dutchie/Homepage/searchBar"), 10)
+
+2019-10-31 14:19:06 - [TEST_STEP][NOT_RUN] - closeBrowser(): NOT_RUN: closeBrowser()
+
+2019-10-31 14:19:06 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser()
+
+2019-10-31 14:19:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dutchie/Open Dutchie homepage' successfully
+
+2019-10-31 14:19:06 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Dutchie/Homepage/BloomingDealsLink"), 0): Scroll to object 'Object Repository/Dutchie/Homepage/BloomingDealsLink' successfully
+
+2019-10-31 14:19:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-31 14:19:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Dutchie/Homepage/BloomingDealsLink' successfully
+
+2019-10-31 14:19:06 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Homepage/BloomingDealsLink")): Object: 'Object Repository/Dutchie/Homepage/BloomingDealsLink' is clicked on
+
+2019-10-31 14:19:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Homepage/BloomingDealsLink' is clicked on
+
+2019-10-31 14:19:07 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-10-31 14:19:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-10-31 14:19:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dutchie/Open Blooming Deals dispensary' successfully
+
+2019-10-31 14:19:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-10-31 14:19:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-10-31 14:19:09 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/CannabisNationItem")): Object: 'Object Repository/Dutchie/Dispensary page/CannabisNationItem' is clicked on
+
+2019-10-31 14:19:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/CannabisNationItem' is clicked on
+
+2019-10-31 14:19:11 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-10-31 14:19:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dutchie/Product modal/AddToCart_xpath"), 2): Object 'Object Repository/Dutchie/Product modal/AddToCart_xpath' is present
+
+2019-10-31 14:19:12 - [MESSAGE][PASSED] - Object 'Object Repository/Dutchie/Product modal/AddToCart_xpath' is present
+
+2019-10-31 14:19:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-10-31 14:19:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-10-31 14:19:14 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Product modal/AddToCart_xpath")): Object: 'Object Repository/Dutchie/Product modal/AddToCart_xpath' is clicked on
+
+2019-10-31 14:19:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Product modal/AddToCart_xpath' is clicked on
+
+2019-10-31 14:19:15 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-10-31 14:19:15 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Delivery-pickup modal/Pickup")): Object: 'Object Repository/Dutchie/Delivery-pickup modal/Pickup' is clicked on
+
+2019-10-31 14:19:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Delivery-pickup modal/Pickup' is clicked on
+
+2019-10-31 14:19:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dutchie/Dispensary page/BasketContent"), 5): Object 'Object Repository/Dutchie/Dispensary page/BasketContent' is present
+
+2019-10-31 14:19:16 - [MESSAGE][PASSED] - Object 'Object Repository/Dutchie/Dispensary page/BasketContent' is present
+
+2019-10-31 14:19:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Dutchie/Dispensary page/BasketContent"), "1"): Actual text and expected text of test object 'Object Repository/Dutchie/Dispensary page/BasketContent' are matched.
+
+2019-10-31 14:19:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Dutchie/Dispensary page/BasketContent' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Proceed to checkout" time="2.214" classname="Test Cases/Dutchie/Proceed to checkout" status="PASSED">
+         <system-out><![CDATA[2019-10-31 14:19:16 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Proceed to checkout: Test Cases/Dutchie/Proceed to checkout
+
+2019-10-31 14:19:17 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Add item to cart"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Add item to cart"), [:], STOP_ON_FAILURE)
+
+2019-10-31 14:19:17 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Add item to cart"), [:], STOP_ON_FAILURE)
+
+2019-10-31 14:19:17 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/BasketContent")): Object: 'Object Repository/Dutchie/Dispensary page/BasketContent' is clicked on
+
+2019-10-31 14:19:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/BasketContent' is clicked on
+
+2019-10-31 14:19:17 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-10-31 14:19:17 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Shopping cart modal/ProceedToCheckout")): Object: 'Object Repository/Dutchie/Shopping cart modal/ProceedToCheckout' is clicked on
+
+2019-10-31 14:19:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Shopping cart modal/ProceedToCheckout' is clicked on
+
+2019-10-31 14:19:18 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-10-31 14:19:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-10-31 14:19:18 - [TEST_STEP][PASSED] - verifyTextPresent("Checkout", false): Text 'Checkout' is present on page 
+
+2019-10-31 14:19:19 - [MESSAGE][PASSED] - Text 'Checkout' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Complete Order" time="5.6" classname="Test Cases/Dutchie/Complete Order" status="PASSED">
+         <system-out><![CDATA[2019-10-31 14:19:19 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Complete Order: Test Cases/Dutchie/Complete Order
+
+2019-10-31 14:19:19 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Proceed to checkout"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Proceed to checkout"), [:], STOP_ON_FAILURE)
+
+2019-10-31 14:19:19 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Proceed to checkout"), [:], STOP_ON_FAILURE)
+
+2019-10-31 14:19:19 - [TEST_STEP][PASSED] - setText(findTestObject("Dutchie/Checkout/FirstNameCheckout"), "name"): Text 'name' is set on object 'Object Repository/Dutchie/Checkout/FirstNameCheckout'
+
+2019-10-31 14:19:20 - [MESSAGE][PASSED] - Text 'name' is set on object 'Object Repository/Dutchie/Checkout/FirstNameCheckout'
+
+2019-10-31 14:19:20 - [TEST_STEP][PASSED] - setText(findTestObject("Dutchie/Checkout/LastNameCheckout"), "lastname"): Text 'lastname' is set on object 'Object Repository/Dutchie/Checkout/LastNameCheckout'
+
+2019-10-31 14:19:21 - [MESSAGE][PASSED] - Text 'lastname' is set on object 'Object Repository/Dutchie/Checkout/LastNameCheckout'
+
+2019-10-31 14:19:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Dutchie/Checkout/PhoneCheckout"), "(201) 677-8524"): Keys '(201) 677-8524' sent to object: 'Object Repository/Dutchie/Checkout/PhoneCheckout'
+
+2019-10-31 14:19:21 - [MESSAGE][PASSED] - Keys '(201) 677-8524' sent to object: 'Object Repository/Dutchie/Checkout/PhoneCheckout'
+
+2019-10-31 14:19:21 - [TEST_STEP][PASSED] - setText(findTestObject("Dutchie/Checkout/BirthdateCheckout"), "01/12/1980"): Text '01/12/1980' is set on object 'Object Repository/Dutchie/Checkout/BirthdateCheckout'
+
+2019-10-31 14:19:22 - [MESSAGE][PASSED] - Text '01/12/1980' is set on object 'Object Repository/Dutchie/Checkout/BirthdateCheckout'
+
+2019-10-31 14:19:22 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Checkout/PlaceOrder")): Object: 'Object Repository/Dutchie/Checkout/PlaceOrder' is clicked on
+
+2019-10-31 14:19:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Checkout/PlaceOrder' is clicked on
+
+2019-10-31 14:19:22 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-10-31 14:19:22 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Post-checkout modal/NoThanks")): Object: 'Object Repository/Dutchie/Post-checkout modal/NoThanks' is clicked on
+
+2019-10-31 14:19:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Post-checkout modal/NoThanks' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-10-31 14:18:52 - [TEST_SUITE][PASSED] - Basic flow (from dispensary to the checkout page): Test Cases/Dutchie/Complete Order]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

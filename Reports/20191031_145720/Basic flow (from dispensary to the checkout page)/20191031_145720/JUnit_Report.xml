@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Basic flow (from dispensary to the checkout page)" time="30.747" tests="3" failures="1" errors="0">
+   <testsuite name="Basic flow (from dispensary to the checkout page)" tests="3" failures="1" errors="0" time="30.747" timestamp="2019-10-31 14:57:27" hostname="Bojana-PC - BOJANA" id="Test Suites/Basic flow (from dispensary to the checkout page)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Bojana-PC\\git\\Katalon_studio\\Reports\\20191031_145720\\Basic flow (from dispensary to the checkout page)\\20191031_145720"/>
+         <property name="logFiles" value="C:\\Users\\Bojana-PC\\git\\Katalon_studio\\Reports\\20191031_145720\\Basic flow (from dispensary to the checkout page)\\20191031_145720\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Bojana-PC\\git\\Katalon_studio\\Reports\\20191031_145720\\Basic flow (from dispensary to the checkout page)\\20191031_145720\\1572530272385.png"/>
+         <property name="hostName" value="Bojana-PC - BOJANA"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.3.1"/>
+         <property name="browser" value="Chrome 78.0.3904.70"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="8bdc46952156f977b0c195fc80154f06"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Dutchie/Add item to cart" time="22.545" classname="Test Cases/Dutchie/Add item to cart" status="PASSED">
+         <system-out><![CDATA[2019-10-31 14:57:27 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Add item to cart: Test Cases/Dutchie/Add item to cart
+
+2019-10-31 14:57:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Dutchie/Open Blooming Deals dispensary"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Dutchie/Open Blooming Deals dispensary' successfully
+
+2019-10-31 14:57:28 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Open Blooming Deals dispensary: Test Cases/Dutchie/Open Blooming Deals dispensary
+
+2019-10-31 14:57:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Dutchie/Open Dutchie homepage' successfully
+
+2019-10-31 14:57:28 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Open Dutchie homepage: Test Cases/Dutchie/Open Dutchie homepage
+
+2019-10-31 14:57:29 - [TEST_STEP][PASSED] - openBrowser("https://qa.dutchie.dev/home"): Browser is opened with url: 'https://qa.dutchie.dev/home'
+
+2019-10-31 14:57:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-10-31 14:57:29 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-10-31 14:57:37 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.dutchie.dev/home'
+
+2019-10-31 14:57:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-10-31 14:57:41 - [MESSAGE][PASSED] - Current window maximized
+
+2019-10-31 14:57:41 - [TEST_STEP][NOT_RUN] - verifyElementPresent(findTestObject("Dutchie/Homepage/searchBar"), 10): NOT_RUN: verifyElementPresent(findTestObject("Dutchie/Homepage/searchBar"), 10)
+
+2019-10-31 14:57:41 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent(findTestObject("Dutchie/Homepage/searchBar"), 10)
+
+2019-10-31 14:57:41 - [TEST_STEP][NOT_RUN] - closeBrowser(): NOT_RUN: closeBrowser()
+
+2019-10-31 14:57:41 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser()
+
+2019-10-31 14:57:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dutchie/Open Dutchie homepage' successfully
+
+2019-10-31 14:57:41 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Dutchie/Homepage/BloomingDealsLink"), 0): Scroll to object 'Object Repository/Dutchie/Homepage/BloomingDealsLink' successfully
+
+2019-10-31 14:57:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-31 14:57:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Dutchie/Homepage/BloomingDealsLink' successfully
+
+2019-10-31 14:57:42 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Homepage/BloomingDealsLink")): Object: 'Object Repository/Dutchie/Homepage/BloomingDealsLink' is clicked on
+
+2019-10-31 14:57:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Homepage/BloomingDealsLink' is clicked on
+
+2019-10-31 14:57:42 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-10-31 14:57:43 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-10-31 14:57:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dutchie/Open Blooming Deals dispensary' successfully
+
+2019-10-31 14:57:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-10-31 14:57:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-10-31 14:57:45 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/CannabisNationItem")): Object: 'Object Repository/Dutchie/Dispensary page/CannabisNationItem' is clicked on
+
+2019-10-31 14:57:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/CannabisNationItem' is clicked on
+
+2019-10-31 14:57:45 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-10-31 14:57:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dutchie/Product modal/AddToCart_xpath"), 2): Object 'Object Repository/Dutchie/Product modal/AddToCart_xpath' is present
+
+2019-10-31 14:57:46 - [MESSAGE][PASSED] - Object 'Object Repository/Dutchie/Product modal/AddToCart_xpath' is present
+
+2019-10-31 14:57:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-10-31 14:57:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-10-31 14:57:48 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Product modal/AddToCart_xpath")): Object: 'Object Repository/Dutchie/Product modal/AddToCart_xpath' is clicked on
+
+2019-10-31 14:57:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Product modal/AddToCart_xpath' is clicked on
+
+2019-10-31 14:57:48 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-10-31 14:57:48 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Delivery-pickup modal/Pickup")): Object: 'Object Repository/Dutchie/Delivery-pickup modal/Pickup' is clicked on
+
+2019-10-31 14:57:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Delivery-pickup modal/Pickup' is clicked on
+
+2019-10-31 14:57:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dutchie/Dispensary page/BasketContent"), 5): Object 'Object Repository/Dutchie/Dispensary page/BasketContent' is present
+
+2019-10-31 14:57:49 - [MESSAGE][PASSED] - Object 'Object Repository/Dutchie/Dispensary page/BasketContent' is present
+
+2019-10-31 14:57:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Dutchie/Dispensary page/BasketContent"), "1"): Actual text and expected text of test object 'Object Repository/Dutchie/Dispensary page/BasketContent' are matched.
+
+2019-10-31 14:57:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Dutchie/Dispensary page/BasketContent' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Proceed to checkout" time="2.541" classname="Test Cases/Dutchie/Proceed to checkout" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Dutchie/Proceed to checkout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Checkout' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at Proceed to checkout.run(Proceed to checkout:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572530245223.run(TempTestSuite1572530245223.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Checkout' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2019-10-31 14:57:50 - [TEST_CASE][FAILED] - Test Cases/Dutchie/Proceed to checkout: Test Cases/Dutchie/Proceed to checkout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Checkout' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at Proceed to checkout.run(Proceed to checkout:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572530245223.run(TempTestSuite1572530245223.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Checkout' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-10-31 14:57:50 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Add item to cart"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Add item to cart"), [:], STOP_ON_FAILURE)
+
+2019-10-31 14:57:50 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Add item to cart"), [:], STOP_ON_FAILURE)
+
+2019-10-31 14:57:50 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/BasketContent")): Object: 'Object Repository/Dutchie/Dispensary page/BasketContent' is clicked on
+
+2019-10-31 14:57:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/BasketContent' is clicked on
+
+2019-10-31 14:57:50 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-10-31 14:57:50 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Shopping cart modal/ProceedToCheckout")): Object: 'Object Repository/Dutchie/Shopping cart modal/ProceedToCheckout' is clicked on
+
+2019-10-31 14:57:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Shopping cart modal/ProceedToCheckout' is clicked on
+
+2019-10-31 14:57:51 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-10-31 14:57:51 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-10-31 14:57:51 - [TEST_STEP][FAILED] - verifyTextPresent("Checkout", false): Unable to verify text 'Checkout' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Checkout' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at Proceed to checkout.run(Proceed to checkout:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572530245223.run(TempTestSuite1572530245223.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Checkout' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2019-10-31 14:57:52 - [MESSAGE][FAILED] - Text 'Checkout' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Checkout' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at Proceed to checkout.run(Proceed to checkout:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572530245223.run(TempTestSuite1572530245223.groovy:36)
+)
+
+2019-10-31 14:57:52 - [MESSAGE][FAILED] - Unable to verify text 'Checkout' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Checkout' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at Proceed to checkout.run(Proceed to checkout:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572530245223.run(TempTestSuite1572530245223.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Checkout' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\Bojana-PC\\git\\Katalon_studio\\Reports\\20191031_145720\\Basic flow (from dispensary to the checkout page)\\20191031_145720\\1572530272385.png]]]]></system-out>
+         <system-err><![CDATA[2019-10-31 14:57:50 - [TEST_CASE][FAILED] - Test Cases/Dutchie/Proceed to checkout: Test Cases/Dutchie/Proceed to checkout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Checkout' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at Proceed to checkout.run(Proceed to checkout:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572530245223.run(TempTestSuite1572530245223.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Checkout' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Complete Order" time="4.667" classname="Test Cases/Dutchie/Complete Order" status="PASSED">
+         <system-out><![CDATA[2019-10-31 14:57:52 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Complete Order: Test Cases/Dutchie/Complete Order
+
+2019-10-31 14:57:53 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Proceed to checkout"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Proceed to checkout"), [:], STOP_ON_FAILURE)
+
+2019-10-31 14:57:53 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Proceed to checkout"), [:], STOP_ON_FAILURE)
+
+2019-10-31 14:57:53 - [TEST_STEP][PASSED] - setText(findTestObject("Dutchie/Checkout/FirstNameCheckout"), "name"): Text 'name' is set on object 'Object Repository/Dutchie/Checkout/FirstNameCheckout'
+
+2019-10-31 14:57:53 - [MESSAGE][PASSED] - Text 'name' is set on object 'Object Repository/Dutchie/Checkout/FirstNameCheckout'
+
+2019-10-31 14:57:53 - [TEST_STEP][PASSED] - setText(findTestObject("Dutchie/Checkout/LastNameCheckout"), "lastname"): Text 'lastname' is set on object 'Object Repository/Dutchie/Checkout/LastNameCheckout'
+
+2019-10-31 14:57:54 - [MESSAGE][PASSED] - Text 'lastname' is set on object 'Object Repository/Dutchie/Checkout/LastNameCheckout'
+
+2019-10-31 14:57:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Dutchie/Checkout/PhoneCheckout"), "(201) 677-8524"): Keys '(201) 677-8524' sent to object: 'Object Repository/Dutchie/Checkout/PhoneCheckout'
+
+2019-10-31 14:57:54 - [MESSAGE][PASSED] - Keys '(201) 677-8524' sent to object: 'Object Repository/Dutchie/Checkout/PhoneCheckout'
+
+2019-10-31 14:57:54 - [TEST_STEP][PASSED] - setText(findTestObject("Dutchie/Checkout/BirthdateCheckout"), "01/12/1980"): Text '01/12/1980' is set on object 'Object Repository/Dutchie/Checkout/BirthdateCheckout'
+
+2019-10-31 14:57:55 - [MESSAGE][PASSED] - Text '01/12/1980' is set on object 'Object Repository/Dutchie/Checkout/BirthdateCheckout'
+
+2019-10-31 14:57:55 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Checkout/PlaceOrder")): Object: 'Object Repository/Dutchie/Checkout/PlaceOrder' is clicked on
+
+2019-10-31 14:57:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Checkout/PlaceOrder' is clicked on
+
+2019-10-31 14:57:55 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-10-31 14:57:55 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Post-checkout modal/NoThanks")): Object: 'Object Repository/Dutchie/Post-checkout modal/NoThanks' is clicked on
+
+2019-10-31 14:57:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Post-checkout modal/NoThanks' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-10-31 14:57:27 - [TEST_SUITE][FAILED] - Basic flow (from dispensary to the checkout page): Test Cases/Dutchie/Proceed to checkout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Checkout' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at Proceed to checkout.run(Proceed to checkout:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572530245223.run(TempTestSuite1572530245223.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Checkout' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2019-10-31 14:57:27 - [TEST_SUITE][FAILED] - Basic flow (from dispensary to the checkout page): Test Cases/Dutchie/Proceed to checkout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Checkout' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at Proceed to checkout.run(Proceed to checkout:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572530245223.run(TempTestSuite1572530245223.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Checkout' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Manipulation of quantity, weight and items before and after adding them to the cart" time="52.748" tests="5" failures="0" errors="0">
+   <testsuite name="Manipulation of quantity, weight and items before and after adding them to the cart" tests="5" failures="0" errors="0" time="52.748" timestamp="2019-10-31 14:55:20" hostname="Bojana-PC - BOJANA" id="Test Suites/Manipulation of quantity, weight and items before and after adding them to the cart">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Bojana-PC\\git\\Katalon_studio\\Reports\\20191031_145514\\Manipulation of quantity, weight and items before and after adding them to the cart\\20191031_145514"/>
+         <property name="logFiles" value="C:\\Users\\Bojana-PC\\git\\Katalon_studio\\Reports\\20191031_145514\\Manipulation of quantity, weight and items before and after adding them to the cart\\20191031_145514\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Bojana-PC - BOJANA"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.3.1"/>
+         <property name="browser" value="Chrome 78.0.3904.70"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="8948d0416da8ae7b74250349199acef7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Dutchie/Change quantity of product before adding it to the cart" time="24.472" classname="Test Cases/Dutchie/Change quantity of product before adding it to the cart" status="PASSED">
+         <system-out><![CDATA[2019-10-31 14:55:20 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Change quantity of product before adding it to the cart: Test Cases/Dutchie/Change quantity of product before adding it to the cart
+
+2019-10-31 14:55:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Dutchie/Open Blooming Deals dispensary"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Dutchie/Open Blooming Deals dispensary' successfully
+
+2019-10-31 14:55:21 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Open Blooming Deals dispensary: Test Cases/Dutchie/Open Blooming Deals dispensary
+
+2019-10-31 14:55:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Dutchie/Open Dutchie homepage' successfully
+
+2019-10-31 14:55:21 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Open Dutchie homepage: Test Cases/Dutchie/Open Dutchie homepage
+
+2019-10-31 14:55:21 - [TEST_STEP][PASSED] - openBrowser("https://qa.dutchie.dev/home"): Browser is opened with url: 'https://qa.dutchie.dev/home'
+
+2019-10-31 14:55:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-10-31 14:55:22 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-10-31 14:55:30 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.dutchie.dev/home'
+
+2019-10-31 14:55:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-10-31 14:55:34 - [MESSAGE][PASSED] - Current window maximized
+
+2019-10-31 14:55:34 - [TEST_STEP][NOT_RUN] - verifyElementPresent(findTestObject("Dutchie/Homepage/searchBar"), 10): NOT_RUN: verifyElementPresent(findTestObject("Dutchie/Homepage/searchBar"), 10)
+
+2019-10-31 14:55:34 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent(findTestObject("Dutchie/Homepage/searchBar"), 10)
+
+2019-10-31 14:55:34 - [TEST_STEP][NOT_RUN] - closeBrowser(): NOT_RUN: closeBrowser()
+
+2019-10-31 14:55:34 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser()
+
+2019-10-31 14:55:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dutchie/Open Dutchie homepage' successfully
+
+2019-10-31 14:55:34 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Dutchie/Homepage/BloomingDealsLink"), 0): Scroll to object 'Object Repository/Dutchie/Homepage/BloomingDealsLink' successfully
+
+2019-10-31 14:55:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-10-31 14:55:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Dutchie/Homepage/BloomingDealsLink' successfully
+
+2019-10-31 14:55:34 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Homepage/BloomingDealsLink")): Object: 'Object Repository/Dutchie/Homepage/BloomingDealsLink' is clicked on
+
+2019-10-31 14:55:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Homepage/BloomingDealsLink' is clicked on
+
+2019-10-31 14:55:35 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-10-31 14:55:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-10-31 14:55:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dutchie/Open Blooming Deals dispensary' successfully
+
+2019-10-31 14:55:35 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/Cannabis Nation Cherry Chem")): Object: 'Object Repository/Dutchie/Dispensary page/Cannabis Nation Cherry Chem' is clicked on
+
+2019-10-31 14:55:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/Cannabis Nation Cherry Chem' is clicked on
+
+2019-10-31 14:55:37 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-10-31 14:55:37 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Product modal/SelectQuantity")): Object: 'Object Repository/Dutchie/Product modal/SelectQuantity' is clicked on
+
+2019-10-31 14:55:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Product modal/SelectQuantity' is clicked on
+
+2019-10-31 14:55:38 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Dutchie/Product modal/10 items"), 2): Scroll to object 'Object Repository/Dutchie/Product modal/10 items' successfully
+
+2019-10-31 14:55:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Dutchie/Product modal/10 items' successfully
+
+2019-10-31 14:55:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-10-31 14:55:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-10-31 14:55:40 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Product modal/10 items")): Object: 'Object Repository/Dutchie/Product modal/10 items' is clicked on
+
+2019-10-31 14:55:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Product modal/10 items' is clicked on
+
+2019-10-31 14:55:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-10-31 14:55:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-10-31 14:55:43 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Product modal/AddToCart_xpath")): Object: 'Object Repository/Dutchie/Product modal/AddToCart_xpath' is clicked on
+
+2019-10-31 14:55:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Product modal/AddToCart_xpath' is clicked on
+
+2019-10-31 14:55:43 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-10-31 14:55:43 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Delivery-pickup modal/Pickup")): Object: 'Object Repository/Dutchie/Delivery-pickup modal/Pickup' is clicked on
+
+2019-10-31 14:55:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Delivery-pickup modal/Pickup' is clicked on
+
+2019-10-31 14:55:44 - [TEST_STEP][PASSED] - verifyTextPresent("Qty: 10 - $72.00", false): Text 'Qty: 10 - $72.00' is present on page 
+
+2019-10-31 14:55:45 - [MESSAGE][PASSED] - Text 'Qty: 10 - $72.00' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Remove item from basket" time="7.057" classname="Test Cases/Dutchie/Remove item from basket" status="PASSED">
+         <system-out><![CDATA[2019-10-31 14:55:45 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Remove item from basket: Test Cases/Dutchie/Remove item from basket
+
+2019-10-31 14:55:45 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Change weight of item before adding it to the cart"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Change weight of item before adding it to the cart"), [:], STOP_ON_FAILURE)
+
+2019-10-31 14:55:45 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Change weight of item before adding it to the cart"), [:], STOP_ON_FAILURE)
+
+2019-10-31 14:55:45 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/BasketContent")): Object: 'Object Repository/Dutchie/Dispensary page/BasketContent' is clicked on
+
+2019-10-31 14:55:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/BasketContent' is clicked on
+
+2019-10-31 14:55:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-10-31 14:55:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-10-31 14:55:47 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Shopping cart modal/RemoveIcon")): Object: 'Object Repository/Dutchie/Shopping cart modal/RemoveIcon' is clicked on
+
+2019-10-31 14:55:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Shopping cart modal/RemoveIcon' is clicked on
+
+2019-10-31 14:55:48 - [TEST_STEP][PASSED] - verifyTextPresent("Your cart is empty", false): Text 'Your cart is empty' is present on page 
+
+2019-10-31 14:55:49 - [MESSAGE][PASSED] - Text 'Your cart is empty' is present on page 
+
+2019-10-31 14:55:49 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Shopping cart modal/Close")): Object: 'Object Repository/Dutchie/Shopping cart modal/Close' is clicked on
+
+2019-10-31 14:55:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Shopping cart modal/Close' is clicked on
+
+2019-10-31 14:55:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-10-31 14:55:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-10-31 14:55:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Dutchie/Dispensary page/EmptyCard"), "0"): Actual text and expected text of test object 'Object Repository/Dutchie/Dispensary page/EmptyCard' are matched.
+
+2019-10-31 14:55:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Dutchie/Dispensary page/EmptyCard' are matched.
+
+2019-10-31 14:55:52 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/Dutchie logo")): Object: 'Object Repository/Dutchie/Dispensary page/Dutchie logo' is clicked on
+
+2019-10-31 14:55:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/Dutchie logo' is clicked on
+
+2019-10-31 14:55:52 - [TEST_STEP][NOT_RUN] - waitForPageLoad(2): NOT_RUN: waitForPageLoad(2)
+
+2019-10-31 14:55:52 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForPageLoad(2)
+
+2019-10-31 14:55:52 - [TEST_STEP][NOT_RUN] - click(findTestObject("Dutchie/Dispensary page/Dutchie logo")): NOT_RUN: click(findTestObject("Dutchie/Dispensary page/Dutchie logo"))
+
+2019-10-31 14:55:52 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Dutchie/Dispensary page/Dutchie logo"))]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Open Oregrown from the search results" time="3.657" classname="Test Cases/Dutchie/Open Oregrown from the search results" status="PASSED">
+         <system-out><![CDATA[2019-10-31 14:55:52 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Open Oregrown from the search results: Test Cases/Dutchie/Open Oregrown from the search results
+
+2019-10-31 14:55:52 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-10-31 14:55:52 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-10-31 14:55:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Dutchie/Homepage/searchBar"), "Bend OR"): Keys 'Bend OR' sent to object: 'Object Repository/Dutchie/Homepage/searchBar'
+
+2019-10-31 14:55:53 - [MESSAGE][PASSED] - Keys 'Bend OR' sent to object: 'Object Repository/Dutchie/Homepage/searchBar'
+
+2019-10-31 14:55:53 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Dutchie/Homepage/FirstDispensaryInDropDown"), 2): Scroll to object 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown' successfully
+
+2019-10-31 14:55:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown' successfully
+
+2019-10-31 14:55:53 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Homepage/FirstDispensaryInDropDown")): Object: 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown' is clicked on
+
+2019-10-31 14:55:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown' is clicked on
+
+2019-10-31 14:55:54 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-10-31 14:55:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-10-31 14:55:54 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/Oregrown")): Object: 'Object Repository/Dutchie/Search results/Oregrown' is clicked on
+
+2019-10-31 14:55:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/Oregrown' is clicked on
+
+2019-10-31 14:55:56 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-10-31 14:55:56 - [MESSAGE][PASSED] - Wait for page load successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Change weight of item before adding it to the cart" time="9.268" classname="Test Cases/Dutchie/Change weight of item before adding it to the cart" status="PASSED">
+         <system-out><![CDATA[2019-10-31 14:55:56 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Change weight of item before adding it to the cart: Test Cases/Dutchie/Change weight of item before adding it to the cart
+
+2019-10-31 14:55:56 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Open Oregrown from the search results"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Open Oregrown from the search results"), [:], STOP_ON_FAILURE)
+
+2019-10-31 14:55:56 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Open Oregrown from the search results"), [:], STOP_ON_FAILURE)
+
+2019-10-31 14:55:56 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/Animal Mints Evans Creek")): Object: 'Object Repository/Dutchie/Dispensary page/Animal Mints Evans Creek' is clicked on
+
+2019-10-31 14:55:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/Animal Mints Evans Creek' is clicked on
+
+2019-10-31 14:55:59 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-10-31 14:55:59 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Product modal/Weight")): Object: 'Object Repository/Dutchie/Product modal/Weight' is clicked on
+
+2019-10-31 14:56:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Product modal/Weight' is clicked on
+
+2019-10-31 14:56:00 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2019-10-31 14:56:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-10-31 14:56:02 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Dutchie/Product modal/Weight - one ounce"), 2): Scroll to object 'Object Repository/Dutchie/Product modal/Weight - one ounce' successfully
+
+2019-10-31 14:56:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Dutchie/Product modal/Weight - one ounce' successfully
+
+2019-10-31 14:56:02 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Product modal/Weight - one ounce")): Object: 'Object Repository/Dutchie/Product modal/Weight - one ounce' is clicked on
+
+2019-10-31 14:56:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Product modal/Weight - one ounce' is clicked on
+
+2019-10-31 14:56:02 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Product modal/AddToCart_xpath")): Object: 'Object Repository/Dutchie/Product modal/AddToCart_xpath' is clicked on
+
+2019-10-31 14:56:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Product modal/AddToCart_xpath' is clicked on
+
+2019-10-31 14:56:03 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-10-31 14:56:03 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Delivery-pickup modal/Pickup")): Object: 'Object Repository/Dutchie/Delivery-pickup modal/Pickup' is clicked on
+
+2019-10-31 14:56:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Delivery-pickup modal/Pickup' is clicked on
+
+2019-10-31 14:56:04 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-10-31 14:56:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-10-31 14:56:04 - [TEST_STEP][PASSED] - verifyTextPresent("Qty: 1 - $167.50", false): Text 'Qty: 1 - $167.50' is present on page 
+
+2019-10-31 14:56:05 - [MESSAGE][PASSED] - Text 'Qty: 1 - $167.50' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Remove item from basket" time="7.33" classname="Test Cases/Dutchie/Remove item from basket" status="PASSED">
+         <system-out><![CDATA[2019-10-31 14:56:05 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Remove item from basket: Test Cases/Dutchie/Remove item from basket
+
+2019-10-31 14:56:05 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Change weight of item before adding it to the cart"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Change weight of item before adding it to the cart"), [:], STOP_ON_FAILURE)
+
+2019-10-31 14:56:05 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Change weight of item before adding it to the cart"), [:], STOP_ON_FAILURE)
+
+2019-10-31 14:56:05 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/BasketContent")): Object: 'Object Repository/Dutchie/Dispensary page/BasketContent' is clicked on
+
+2019-10-31 14:56:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/BasketContent' is clicked on
+
+2019-10-31 14:56:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-10-31 14:56:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-10-31 14:56:07 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Shopping cart modal/RemoveIcon")): Object: 'Object Repository/Dutchie/Shopping cart modal/RemoveIcon' is clicked on
+
+2019-10-31 14:56:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Shopping cart modal/RemoveIcon' is clicked on
+
+2019-10-31 14:56:08 - [TEST_STEP][PASSED] - verifyTextPresent("Your cart is empty", false): Text 'Your cart is empty' is present on page 
+
+2019-10-31 14:56:09 - [MESSAGE][PASSED] - Text 'Your cart is empty' is present on page 
+
+2019-10-31 14:56:09 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Shopping cart modal/Close")): Object: 'Object Repository/Dutchie/Shopping cart modal/Close' is clicked on
+
+2019-10-31 14:56:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Shopping cart modal/Close' is clicked on
+
+2019-10-31 14:56:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-10-31 14:56:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-10-31 14:56:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Dutchie/Dispensary page/EmptyCard"), "0"): Actual text and expected text of test object 'Object Repository/Dutchie/Dispensary page/EmptyCard' are matched.
+
+2019-10-31 14:56:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Dutchie/Dispensary page/EmptyCard' are matched.
+
+2019-10-31 14:56:12 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/Dutchie logo")): Object: 'Object Repository/Dutchie/Dispensary page/Dutchie logo' is clicked on
+
+2019-10-31 14:56:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/Dutchie logo' is clicked on
+
+2019-10-31 14:56:12 - [TEST_STEP][NOT_RUN] - waitForPageLoad(2): NOT_RUN: waitForPageLoad(2)
+
+2019-10-31 14:56:12 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForPageLoad(2)
+
+2019-10-31 14:56:12 - [TEST_STEP][NOT_RUN] - click(findTestObject("Dutchie/Dispensary page/Dutchie logo")): NOT_RUN: click(findTestObject("Dutchie/Dispensary page/Dutchie logo"))
+
+2019-10-31 14:56:12 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Dutchie/Dispensary page/Dutchie logo"))]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-10-31 14:55:20 - [TEST_SUITE][PASSED] - Manipulation of quantity, weight and items before and after adding them to the cart: Test Cases/Dutchie/Remove item from basket]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

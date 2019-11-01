@@ -17,15 +17,23 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Dutchie/Open Dutchie homepage'), [:], FailureHandling.STOP_ON_FAILURE)
 
+//Open Login form
+
 WebUI.click(findTestObject('Dutchie/Login/LoginLink'))
 
 WebUI.switchToDefaultContent()
+
+//Insert login details
 
 WebUI.sendKeys(findTestObject('Dutchie/Login/Email'), 'qtester97+1101bl@gmail.com')
 
 WebUI.sendKeys(findTestObject('Dutchie/Login/Password'), 'validPassword')
 
+//Complete login process
+
 WebUI.click(findTestObject('Dutchie/Login/LoginButton'))
+
+//Verify that user is successfully logged
 
 WebUI.verifyElementText(findTestObject('Dutchie/Homepage/LinkForAccount'), 'Hi Dave')
 

@@ -17,9 +17,13 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Dutchie/Open Dutchie homepage'), [:], FailureHandling.STOP_ON_FAILURE)
 
+//Open Sign-up form
+
 WebUI.click(findTestObject('Dutchie/Homepage/Sign-up'))
 
 WebUI.switchToDefaultContent()
+
+//Fill personal data 
 
 WebUI.sendKeys(findTestObject('Dutchie/Sign-up/FirstNameSignUp'), 'Dave')
 
@@ -50,6 +54,8 @@ WebUI.click(findTestObject('Dutchie/Sign-up/YearSignUp'))
 WebUI.scrollToElement(findTestObject('Dutchie/Sign-up/1993Year'), 2)
 
 WebUI.click(findTestObject('Dutchie/Sign-up/1993Year'))
+
+//Complete Sign-up process
 
 WebUI.click(findTestObject('Dutchie/Sign-up/CreateMyAccount'))
 

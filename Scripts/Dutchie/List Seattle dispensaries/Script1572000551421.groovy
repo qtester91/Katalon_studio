@@ -36,5 +36,5 @@ WebUI.verifyElementPresent(findTestObject('Dutchie/Search results/Seattle,WA'), 
 
 WebUI.verifyTextPresent('Dispensaries ', false)
 
-WebUI.click(findTestObject('Dutchie/Dispensary page/Dutchie logo'))
+WebUI.click(findTestObject('Dutchie/Dispensary page/DutchieLogo'))
 

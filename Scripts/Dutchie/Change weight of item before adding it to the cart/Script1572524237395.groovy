@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 not_run: WebUI.callTestCase(findTestCase('Dutchie/Open Oregrown from the search results'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Dutchie/Dispensary page/Animal Mints Evans Creek'))
+WebUI.click(findTestObject('Dutchie/Dispensary page/AnimalMintsEvansCreek'))
 
 WebUI.switchToDefaultContent()
 
@@ -25,9 +25,9 @@ WebUI.click(findTestObject('Dutchie/Product modal/Weight'))
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('Dutchie/Product modal/Weight - one ounce'), 2)
+WebUI.scrollToElement(findTestObject('Dutchie/Product modal/WeightOneOunce'), 2)
 
-WebUI.click(findTestObject('Dutchie/Product modal/Weight - one ounce'))
+WebUI.click(findTestObject('Dutchie/Product modal/WeightOneOunce'))
 
 WebUI.click(findTestObject('Dutchie/Product modal/AddToCart_xpath'))
 
@@ -38,4 +38,8 @@ WebUI.click(findTestObject('Dutchie/Delivery-pickup modal/Pickup'))
 WebUI.waitForPageLoad(2)
 
 WebUI.verifyTextPresent('Qty: 1 - $167.50', false)
+
+WebUI.callTestCase(findTestCase('Dutchie/Remove item from basket'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Dutchie/Dispensary page/DutchieLogo'))
 

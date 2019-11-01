@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('Dutchie/Open Blooming Deals dispensary'), [:], FailureHandling.STOP_ON_FAILURE)
 
 //Select item from the list
-WebUI.click(findTestObject('Dutchie/Dispensary page/Cannabis Nation Cherry Chem'))
+WebUI.click(findTestObject('Dutchie/Dispensary page/CannabisNationCherryChem'))
 
 WebUI.switchToDefaultContent()
 

@@ -34,12 +34,12 @@ WebUI.click(findTestObject('Dutchie/Shopping cart modal/Close'))
 WebUI.delay(2)
 
 //Verify that shopping cart is empty
-WebUI.verifyElementText(findTestObject('Dutchie/Dispensary page/EmptyCard'), '0')
+WebUI.verifyElementText(findTestObject('Dutchie/Dispensary page/EmptyCart'), '0')
 
 //Return to the homepage (logo needs to be clicked 2 times because first click returns user to the search result page)
-WebUI.click(findTestObject('Dutchie/Dispensary page/Dutchie logo'))
+WebUI.click(findTestObject('Dutchie/Dispensary page/DutchieLogo'))
 
 not_run: WebUI.waitForPageLoad(2)
 
-not_run: WebUI.click(findTestObject('Dutchie/Dispensary page/Dutchie logo'))
+not_run: WebUI.click(findTestObject('Dutchie/Dispensary page/DutchieLogo'))
 

@@ -29,5 +29,5 @@ WebUI.verifyTextPresent('Location', false)
 
 //Return to Dutchie homepage
 
-WebUI.click(findTestObject('Dutchie/Dispensary page/Dutchie logo'))
+WebUI.click(findTestObject('Dutchie/Dispensary page/DutchieLogo'))
 

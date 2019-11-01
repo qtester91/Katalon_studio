@@ -1,0 +1,1109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Dispensaries (working hours, filters, search results)" time="164.819" tests="11" failures="1" errors="0">
+   <testsuite name="Dispensaries (working hours, filters, search results)" tests="11" failures="1" errors="0" time="164.819" timestamp="2019-11-01 11:06:11" hostname="Bojana-PC - BOJANA" id="Test Suites/Dispensaries (working hours, filters, search results)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Bojana-PC\\git\\Katalon_studio\\Reports\\20191101_110604\\Dispensaries (working hours, filters, search results)\\20191101_110604"/>
+         <property name="logFiles" value="C:\\Users\\Bojana-PC\\git\\Katalon_studio\\Reports\\20191101_110604\\Dispensaries (working hours, filters, search results)\\20191101_110604\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Bojana-PC\\git\\Katalon_studio\\Reports\\20191101_110604\\Dispensaries (working hours, filters, search results)\\20191101_110604\\1572602934693.png"/>
+         <property name="hostName" value="Bojana-PC - BOJANA"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.3.1"/>
+         <property name="browser" value="Chrome 78.0.3904.87"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="034abc8e48284d0f478517504d2640ad"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Dutchie/Working hours - Blooming Deals" time="22.744" classname="Test Cases/Dutchie/Working hours - Blooming Deals" status="PASSED">
+         <system-out><![CDATA[2019-11-01 11:06:12 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Working hours - Blooming Deals: Test Cases/Dutchie/Working hours - Blooming Deals
+
+2019-11-01 11:06:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Dutchie/Open Blooming Deals dispensary"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Dutchie/Open Blooming Deals dispensary' successfully
+
+2019-11-01 11:06:13 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Open Blooming Deals dispensary: Test Cases/Dutchie/Open Blooming Deals dispensary
+
+2019-11-01 11:06:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Dutchie/Open Dutchie homepage' successfully
+
+2019-11-01 11:06:13 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Open Dutchie homepage: Test Cases/Dutchie/Open Dutchie homepage
+
+2019-11-01 11:06:13 - [TEST_STEP][PASSED] - openBrowser("https://qa.dutchie.dev/home"): Browser is opened with url: 'https://qa.dutchie.dev/home'
+
+2019-11-01 11:06:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-11-01 11:06:14 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-11-01 11:06:23 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.dutchie.dev/home'
+
+2019-11-01 11:06:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-11-01 11:06:27 - [MESSAGE][PASSED] - Current window maximized
+
+2019-11-01 11:06:27 - [TEST_STEP][NOT_RUN] - verifyElementPresent(findTestObject("Dutchie/Homepage/searchBar"), 10): NOT_RUN: verifyElementPresent(findTestObject("Dutchie/Homepage/searchBar"), 10)
+
+2019-11-01 11:06:27 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent(findTestObject("Dutchie/Homepage/searchBar"), 10)
+
+2019-11-01 11:06:27 - [TEST_STEP][NOT_RUN] - closeBrowser(): NOT_RUN: closeBrowser()
+
+2019-11-01 11:06:27 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser()
+
+2019-11-01 11:06:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dutchie/Open Dutchie homepage' successfully
+
+2019-11-01 11:06:28 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Dutchie/Homepage/BloomingDealsLink"), 0): Scroll to object 'Object Repository/Dutchie/Homepage/BloomingDealsLink' successfully
+
+2019-11-01 11:06:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-01 11:06:28 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Dutchie/Homepage/BloomingDealsLink' successfully
+
+2019-11-01 11:06:28 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Homepage/BloomingDealsLink")): Object: 'Object Repository/Dutchie/Homepage/BloomingDealsLink' is clicked on
+
+2019-11-01 11:06:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Homepage/BloomingDealsLink' is clicked on
+
+2019-11-01 11:06:29 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-11-01 11:06:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-01 11:06:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dutchie/Open Blooming Deals dispensary' successfully
+
+2019-11-01 11:06:29 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/WorkingHours")): Object: 'Object Repository/Dutchie/Dispensary page/WorkingHours' is clicked on
+
+2019-11-01 11:06:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/WorkingHours' is clicked on
+
+2019-11-01 11:06:31 - [TEST_STEP][PASSED] - verifyTextPresent("Pickup", false): Text 'Pickup' is present on page 
+
+2019-11-01 11:06:33 - [MESSAGE][PASSED] - Text 'Pickup' is present on page 
+
+2019-11-01 11:06:33 - [TEST_STEP][PASSED] - verifyTextPresent("Delivery", false): Text 'Delivery' is present on page 
+
+2019-11-01 11:06:33 - [MESSAGE][PASSED] - Text 'Delivery' is present on page 
+
+2019-11-01 11:06:33 - [TEST_STEP][PASSED] - verifyTextPresent("Location", false): Text 'Location' is present on page 
+
+2019-11-01 11:06:34 - [MESSAGE][PASSED] - Text 'Location' is present on page 
+
+2019-11-01 11:06:34 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/DutchieLogo")): Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 11:06:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Check functionality of links in the menu" time="14.616" classname="Test Cases/Dutchie/Check functionality of links in the menu" status="PASSED">
+         <system-out><![CDATA[2019-11-01 11:06:34 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Check functionality of links in the menu: Test Cases/Dutchie/Check functionality of links in the menu
+
+2019-11-01 11:06:35 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 11:06:35 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 11:06:35 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Dutchie/Homepage/ChaliceFarmLink"), 3): Scroll to object 'Object Repository/Dutchie/Homepage/ChaliceFarmLink' successfully
+
+2019-11-01 11:06:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Dutchie/Homepage/ChaliceFarmLink' successfully
+
+2019-11-01 11:06:35 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Homepage/ChaliceFarmLink")): Object: 'Object Repository/Dutchie/Homepage/ChaliceFarmLink' is clicked on
+
+2019-11-01 11:06:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Homepage/ChaliceFarmLink' is clicked on
+
+2019-11-01 11:06:35 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-11-01 11:06:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-01 11:06:35 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Filters in the menu/Pre-Rolls")): Object: 'Object Repository/Dutchie/Filters in the menu/Pre-Rolls' is clicked on
+
+2019-11-01 11:06:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Filters in the menu/Pre-Rolls' is clicked on
+
+2019-11-01 11:06:37 - [TEST_STEP][PASSED] - verifyTextPresent("Pre-Rolls", false): Text 'Pre-Rolls' is present on page 
+
+2019-11-01 11:06:37 - [MESSAGE][PASSED] - Text 'Pre-Rolls' is present on page 
+
+2019-11-01 11:06:37 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Filters in the menu/Vaporizers")): Object: 'Object Repository/Dutchie/Filters in the menu/Vaporizers' is clicked on
+
+2019-11-01 11:06:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Filters in the menu/Vaporizers' is clicked on
+
+2019-11-01 11:06:38 - [TEST_STEP][PASSED] - verifyTextPresent("Vaporizers", false): Text 'Vaporizers' is present on page 
+
+2019-11-01 11:06:40 - [MESSAGE][PASSED] - Text 'Vaporizers' is present on page 
+
+2019-11-01 11:06:40 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Filters in the menu/Concentrates")): Object: 'Object Repository/Dutchie/Filters in the menu/Concentrates' is clicked on
+
+2019-11-01 11:06:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Filters in the menu/Concentrates' is clicked on
+
+2019-11-01 11:06:41 - [TEST_STEP][PASSED] - verifyTextPresent("Concentrates", false): Text 'Concentrates' is present on page 
+
+2019-11-01 11:06:42 - [MESSAGE][PASSED] - Text 'Concentrates' is present on page 
+
+2019-11-01 11:06:42 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Filters in the menu/Edibles")): Object: 'Object Repository/Dutchie/Filters in the menu/Edibles' is clicked on
+
+2019-11-01 11:06:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Filters in the menu/Edibles' is clicked on
+
+2019-11-01 11:06:43 - [TEST_STEP][PASSED] - verifyTextPresent("Edibles", false): Text 'Edibles' is present on page 
+
+2019-11-01 11:06:44 - [MESSAGE][PASSED] - Text 'Edibles' is present on page 
+
+2019-11-01 11:06:44 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Filters in the menu/Topicals")): Object: 'Object Repository/Dutchie/Filters in the menu/Topicals' is clicked on
+
+2019-11-01 11:06:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Filters in the menu/Topicals' is clicked on
+
+2019-11-01 11:06:45 - [TEST_STEP][PASSED] - verifyTextPresent("Topicals", false): Text 'Topicals' is present on page 
+
+2019-11-01 11:06:46 - [MESSAGE][PASSED] - Text 'Topicals' is present on page 
+
+2019-11-01 11:06:46 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Filters in the menu/Flower")): Object: 'Object Repository/Dutchie/Filters in the menu/Flower' is clicked on
+
+2019-11-01 11:06:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Filters in the menu/Flower' is clicked on
+
+2019-11-01 11:06:47 - [TEST_STEP][PASSED] - verifyTextPresent("Flower", false): Text 'Flower' is present on page 
+
+2019-11-01 11:06:48 - [MESSAGE][PASSED] - Text 'Flower' is present on page 
+
+2019-11-01 11:06:48 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/DutchieLogo")): Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 11:06:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/List Seattle dispensaries" time="9.95" classname="Test Cases/Dutchie/List Seattle dispensaries" status="PASSED">
+         <system-out><![CDATA[2019-11-01 11:06:49 - [TEST_CASE][PASSED] - Test Cases/Dutchie/List Seattle dispensaries: Test Cases/Dutchie/List Seattle dispensaries
+
+2019-11-01 11:06:49 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 11:06:49 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 11:06:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dutchie/Homepage/searchBar"), 5): Object 'Object Repository/Dutchie/Homepage/searchBar' is present
+
+2019-11-01 11:06:50 - [MESSAGE][PASSED] - Object 'Object Repository/Dutchie/Homepage/searchBar' is present
+
+2019-11-01 11:06:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Dutchie/Homepage/searchBar"), "Seattle"): Keys 'Seattle' sent to object: 'Object Repository/Dutchie/Homepage/searchBar'
+
+2019-11-01 11:06:50 - [MESSAGE][PASSED] - Keys 'Seattle' sent to object: 'Object Repository/Dutchie/Homepage/searchBar'
+
+2019-11-01 11:06:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 11:06:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 11:06:52 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Dutchie/Homepage/FirstDispensaryInDropDown"), 2): Scroll to object 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown' successfully
+
+2019-11-01 11:06:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown' successfully
+
+2019-11-01 11:06:52 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Homepage/FirstDispensaryInDropDown")): Object: 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown' is clicked on
+
+2019-11-01 11:06:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown' is clicked on
+
+2019-11-01 11:06:53 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-11-01 11:06:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-11-01 11:06:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dutchie/Search results/Seattle,WA"), 2): Object 'Object Repository/Dutchie/Search results/Seattle,WA' is present
+
+2019-11-01 11:06:58 - [MESSAGE][PASSED] - Object 'Object Repository/Dutchie/Search results/Seattle,WA' is present
+
+2019-11-01 11:06:58 - [TEST_STEP][PASSED] - verifyTextPresent("Dispensaries ", false): Text 'Dispensaries ' is present on page 
+
+2019-11-01 11:06:59 - [MESSAGE][PASSED] - Text 'Dispensaries ' is present on page 
+
+2019-11-01 11:06:59 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/DutchieLogo")): Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 11:06:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Get Eugene dispensaries" time="5.162" classname="Test Cases/Dutchie/Get Eugene dispensaries" status="PASSED">
+         <system-out><![CDATA[2019-11-01 11:06:59 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Get Eugene dispensaries: Test Cases/Dutchie/Get Eugene dispensaries
+
+2019-11-01 11:06:59 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 11:06:59 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 11:06:59 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Dutchie/Homepage/EugeneLink"), 2): Scroll to object 'Object Repository/Dutchie/Homepage/EugeneLink' successfully
+
+2019-11-01 11:07:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Dutchie/Homepage/EugeneLink' successfully
+
+2019-11-01 11:07:00 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Homepage/EugeneLink")): Object: 'Object Repository/Dutchie/Homepage/EugeneLink' is clicked on
+
+2019-11-01 11:07:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Homepage/EugeneLink' is clicked on
+
+2019-11-01 11:07:00 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-11-01 11:07:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-01 11:07:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dutchie/Search results/EugeneOR"), 2): Unable to find the element located by 'By.xpath: //*[@class='legacy-rebass__Truncate-mknjx2-2 jtEaXb']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-11-01 11:07:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@class='legacy-rebass__Truncate-mknjx2-2 jtEaXb']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-11-01 11:07:04 - [TEST_STEP][PASSED] - verifyTextPresent("Dispensaries ", false): Text 'Dispensaries ' is present on page 
+
+2019-11-01 11:07:04 - [MESSAGE][PASSED] - Text 'Dispensaries ' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Search product" time="6.732" classname="Test Cases/Dutchie/Search product" status="PASSED">
+         <system-out><![CDATA[2019-11-01 11:07:04 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Search product: Test Cases/Dutchie/Search product
+
+2019-11-01 11:07:04 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Get Eugene dispensaries"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Get Eugene dispensaries"), [:], STOP_ON_FAILURE)
+
+2019-11-01 11:07:04 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Get Eugene dispensaries"), [:], STOP_ON_FAILURE)
+
+2019-11-01 11:07:04 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/AmazonOrganics")): Object: 'Object Repository/Dutchie/Search results/AmazonOrganics' is clicked on
+
+2019-11-01 11:07:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/AmazonOrganics' is clicked on
+
+2019-11-01 11:07:05 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-11-01 11:07:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-01 11:07:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dutchie/Dispensary page/SearchProduct"), 2): Object 'Object Repository/Dutchie/Dispensary page/SearchProduct' is present
+
+2019-11-01 11:07:06 - [MESSAGE][PASSED] - Object 'Object Repository/Dutchie/Dispensary page/SearchProduct' is present
+
+2019-11-01 11:07:06 - [TEST_STEP][PASSED] - setText(findTestObject("Dutchie/Dispensary page/SearchProduct"), "Alien Rock"): Text 'Alien Rock' is set on object 'Object Repository/Dutchie/Dispensary page/SearchProduct'
+
+2019-11-01 11:07:06 - [MESSAGE][PASSED] - Text 'Alien Rock' is set on object 'Object Repository/Dutchie/Dispensary page/SearchProduct'
+
+2019-11-01 11:07:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 11:07:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 11:07:08 - [TEST_STEP][PASSED] - verifyTextPresent("ALIEN ROCK CANDY | WICKED KIND", false): Text 'ALIEN ROCK CANDY | WICKED KIND' is present on page 
+
+2019-11-01 11:07:09 - [MESSAGE][PASSED] - Text 'ALIEN ROCK CANDY | WICKED KIND' is present on page 
+
+2019-11-01 11:07:09 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/ClearSearch")): Object: 'Object Repository/Dutchie/Dispensary page/ClearSearch' is clicked on
+
+2019-11-01 11:07:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/ClearSearch' is clicked on
+
+2019-11-01 11:07:09 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/DutchieLogo")): Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 11:07:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 11:07:10 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-11-01 11:07:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-01 11:07:10 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/DutchieLogo")): Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 11:07:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Check functionality of filters on the search result page" time="25.728" classname="Test Cases/Dutchie/Check functionality of filters on the search result page" status="PASSED">
+         <system-out><![CDATA[2019-11-01 11:07:11 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Check functionality of filters on the search result page: Test Cases/Dutchie/Check functionality of filters on the search result page
+
+2019-11-01 11:07:11 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 11:07:11 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 11:07:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Dutchie/Homepage/searchBar"), "Portland"): Keys 'Portland' sent to object: 'Object Repository/Dutchie/Homepage/searchBar'
+
+2019-11-01 11:07:12 - [MESSAGE][PASSED] - Keys 'Portland' sent to object: 'Object Repository/Dutchie/Homepage/searchBar'
+
+2019-11-01 11:07:12 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Dutchie/Homepage/FirstDispensaryInDropDown"), 2): Scroll to object 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown' successfully
+
+2019-11-01 11:07:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown' successfully
+
+2019-11-01 11:07:12 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Homepage/FirstDispensaryInDropDown")): Object: 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown' is clicked on
+
+2019-11-01 11:07:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown' is clicked on
+
+2019-11-01 11:07:13 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-11-01 11:07:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-01 11:07:13 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/OpenForDelivery")): Object: 'Object Repository/Dutchie/Search results/OpenForDelivery' is clicked on
+
+2019-11-01 11:07:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/OpenForDelivery' is clicked on
+
+2019-11-01 11:07:14 - [TEST_STEP][PASSED] - verifyMatch("We couldn't find any dispensaries!", "We couldn't find any dispensaries!", false): Actual text 'We couldn't find any dispensaries!' and expected text 'We couldn't find any dispensaries!' are matched 
+
+2019-11-01 11:07:14 - [MESSAGE][PASSED] - Actual text 'We couldn't find any dispensaries!' and expected text 'We couldn't find any dispensaries!' are matched 
+
+2019-11-01 11:07:14 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/OpenForDelivery")): Object: 'Object Repository/Dutchie/Search results/OpenForDelivery' is clicked on
+
+2019-11-01 11:07:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/OpenForDelivery' is clicked on
+
+2019-11-01 11:07:14 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-11-01 11:07:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-11-01 11:07:19 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/NoDeliveryMinimum")): Object: 'Object Repository/Dutchie/Search results/NoDeliveryMinimum' is clicked on
+
+2019-11-01 11:07:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/NoDeliveryMinimum' is clicked on
+
+2019-11-01 11:07:20 - [TEST_STEP][PASSED] - verifyMatch("We couldn't find any dispensaries!", "We couldn't find any dispensaries!", false): Actual text 'We couldn't find any dispensaries!' and expected text 'We couldn't find any dispensaries!' are matched 
+
+2019-11-01 11:07:20 - [MESSAGE][PASSED] - Actual text 'We couldn't find any dispensaries!' and expected text 'We couldn't find any dispensaries!' are matched 
+
+2019-11-01 11:07:20 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/NoDeliveryMinimum")): Object: 'Object Repository/Dutchie/Search results/NoDeliveryMinimum' is clicked on
+
+2019-11-01 11:07:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/NoDeliveryMinimum' is clicked on
+
+2019-11-01 11:07:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-11-01 11:07:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-11-01 11:07:26 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/AcceptsCreditCards")): Object: 'Object Repository/Dutchie/Search results/AcceptsCreditCards' is clicked on
+
+2019-11-01 11:07:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/AcceptsCreditCards' is clicked on
+
+2019-11-01 11:07:27 - [TEST_STEP][PASSED] - verifyTextNotPresent("We couldn't find any dispensaries!", false, STOP_ON_FAILURE): Text 'We couldn't find any dispensaries!' is not present on page
+
+2019-11-01 11:07:28 - [MESSAGE][PASSED] - Text 'We couldn't find any dispensaries!' is not present on page
+
+2019-11-01 11:07:28 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/AcceptsCreditCards")): Object: 'Object Repository/Dutchie/Search results/AcceptsCreditCards' is clicked on
+
+2019-11-01 11:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/AcceptsCreditCards' is clicked on
+
+2019-11-01 11:07:28 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-11-01 11:07:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-11-01 11:07:33 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/FreeDelivery")): Object: 'Object Repository/Dutchie/Search results/FreeDelivery' is clicked on
+
+2019-11-01 11:07:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/FreeDelivery' is clicked on
+
+2019-11-01 11:07:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 11:07:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 11:07:36 - [TEST_STEP][PASSED] - verifyMatch("Diem Delivery", "Diem Delivery", false): Actual text 'Diem Delivery' and expected text 'Diem Delivery' are matched 
+
+2019-11-01 11:07:36 - [MESSAGE][PASSED] - Actual text 'Diem Delivery' and expected text 'Diem Delivery' are matched 
+
+2019-11-01 11:07:36 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/DutchieLogo")): Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 11:07:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Deselect all filters on the search results page" time="17.031" classname="Test Cases/Dutchie/Deselect all filters on the search results page" status="PASSED">
+         <system-out><![CDATA[2019-11-01 11:07:37 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Deselect all filters on the search results page: Test Cases/Dutchie/Deselect all filters on the search results page
+
+2019-11-01 11:07:37 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 11:07:37 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 11:07:37 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Dutchie/Homepage/EugeneLink"), 2): Scroll to object 'Object Repository/Dutchie/Homepage/EugeneLink' successfully
+
+2019-11-01 11:07:37 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Dutchie/Homepage/EugeneLink' successfully
+
+2019-11-01 11:07:37 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Homepage/EugeneLink")): Object: 'Object Repository/Dutchie/Homepage/EugeneLink' is clicked on
+
+2019-11-01 11:07:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Homepage/EugeneLink' is clicked on
+
+2019-11-01 11:07:38 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-11-01 11:07:38 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-01 11:07:38 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/OpenForDelivery")): Object: 'Object Repository/Dutchie/Search results/OpenForDelivery' is clicked on
+
+2019-11-01 11:07:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/OpenForDelivery' is clicked on
+
+2019-11-01 11:07:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 11:07:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 11:07:41 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/FreeDelivery")): Object: 'Object Repository/Dutchie/Search results/FreeDelivery' is clicked on
+
+2019-11-01 11:07:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/FreeDelivery' is clicked on
+
+2019-11-01 11:07:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 11:07:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 11:07:43 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/NoDeliveryMinimum")): Object: 'Object Repository/Dutchie/Search results/NoDeliveryMinimum' is clicked on
+
+2019-11-01 11:07:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/NoDeliveryMinimum' is clicked on
+
+2019-11-01 11:07:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 11:07:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 11:07:46 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/AcceptsCreditCards")): Object: 'Object Repository/Dutchie/Search results/AcceptsCreditCards' is clicked on
+
+2019-11-01 11:07:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/AcceptsCreditCards' is clicked on
+
+2019-11-01 11:07:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 11:07:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 11:07:48 - [TEST_STEP][PASSED] - verifyMatch("Amazon Organics", "Amazon Organics", false): Actual text 'Amazon Organics' and expected text 'Amazon Organics' are matched 
+
+2019-11-01 11:07:48 - [MESSAGE][PASSED] - Actual text 'Amazon Organics' and expected text 'Amazon Organics' are matched 
+
+2019-11-01 11:07:48 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/ClearAll")): Object: 'Object Repository/Dutchie/Search results/ClearAll' is clicked on
+
+2019-11-01 11:07:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/ClearAll' is clicked on
+
+2019-11-01 11:07:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 11:07:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 11:07:51 - [TEST_STEP][PASSED] - verifyMatch("Dispensaries (19)", "Dispensaries (19)", false): Actual text 'Dispensaries (19)' and expected text 'Dispensaries (19)' are matched 
+
+2019-11-01 11:07:51 - [MESSAGE][PASSED] - Actual text 'Dispensaries (19)' and expected text 'Dispensaries (19)' are matched 
+
+2019-11-01 11:07:51 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/DutchieLogo")): Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 11:07:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 11:07:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 11:07:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 11:07:53 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/DutchieLogo")): Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 11:07:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Open TJs Willamette dispensary" time="1.071" classname="Test Cases/Dutchie/Open TJs Willamette dispensary" status="PASSED">
+         <system-out><![CDATA[2019-11-01 11:07:54 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Open TJs Willamette dispensary: Test Cases/Dutchie/Open TJs Willamette dispensary
+
+2019-11-01 11:07:54 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 11:07:54 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 11:07:54 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Dutchie/Homepage/TJsWillamette"), 2): Scroll to object 'Object Repository/Dutchie/Homepage/TJsWillamette' successfully
+
+2019-11-01 11:07:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Dutchie/Homepage/TJsWillamette' successfully
+
+2019-11-01 11:07:54 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Homepage/TJsWillamette")): Object: 'Object Repository/Dutchie/Homepage/TJsWillamette' is clicked on
+
+2019-11-01 11:07:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Homepage/TJsWillamette' is clicked on
+
+2019-11-01 11:07:55 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-11-01 11:07:55 - [MESSAGE][PASSED] - Wait for page load successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Filter items from dispensary by Brand" time="12.908" classname="Test Cases/Dutchie/Filter items from dispensary by Brand" status="PASSED">
+         <system-out><![CDATA[2019-11-01 11:07:55 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Filter items from dispensary by Brand: Test Cases/Dutchie/Filter items from dispensary by Brand
+
+2019-11-01 11:07:55 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Open TJs Willamette dispensary"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Open TJs Willamette dispensary"), [:], STOP_ON_FAILURE)
+
+2019-11-01 11:07:55 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Open TJs Willamette dispensary"), [:], STOP_ON_FAILURE)
+
+2019-11-01 11:07:55 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/BrandDropDown")): Object: 'Object Repository/Dutchie/Dispensary page/BrandDropDown' is clicked on
+
+2019-11-01 11:07:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/BrandDropDown' is clicked on
+
+2019-11-01 11:07:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 11:08:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 11:08:00 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Dutchie/Dispensary page/Claim52BrandType"), 2): Scroll to object 'Object Repository/Dutchie/Dispensary page/Claim52BrandType' successfully
+
+2019-11-01 11:08:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Dutchie/Dispensary page/Claim52BrandType' successfully
+
+2019-11-01 11:08:00 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/Claim52BrandType")): Object: 'Object Repository/Dutchie/Dispensary page/Claim52BrandType' is clicked on
+
+2019-11-01 11:08:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/Claim52BrandType' is clicked on
+
+2019-11-01 11:08:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 11:08:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 11:08:02 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/TJsX_Claim52RESTASH_JAR")): Object: 'Object Repository/Dutchie/Dispensary page/TJsX_Claim52RESTASH_JAR' is clicked on
+
+2019-11-01 11:08:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/TJsX_Claim52RESTASH_JAR' is clicked on
+
+2019-11-01 11:08:03 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-11-01 11:08:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 11:08:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 11:08:05 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Product modal/AddToCart_xpath")): Object: 'Object Repository/Dutchie/Product modal/AddToCart_xpath' is clicked on
+
+2019-11-01 11:08:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Product modal/AddToCart_xpath' is clicked on
+
+2019-11-01 11:08:05 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-11-01 11:08:05 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Post-checkout modal/GotItButton")): Object: 'Object Repository/Dutchie/Post-checkout modal/GotItButton' is clicked on
+
+2019-11-01 11:08:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Post-checkout modal/GotItButton' is clicked on
+
+2019-11-01 11:08:06 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/DutchieLogo")): Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 11:08:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 11:08:07 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-11-01 11:08:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-01 11:08:07 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/DutchieLogo")): Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 11:08:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Open TJs Willamette dispensary" time="1.72" classname="Test Cases/Dutchie/Open TJs Willamette dispensary" status="PASSED">
+         <system-out><![CDATA[2019-11-01 11:08:08 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Open TJs Willamette dispensary: Test Cases/Dutchie/Open TJs Willamette dispensary
+
+2019-11-01 11:08:08 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 11:08:08 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 11:08:08 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Dutchie/Homepage/TJsWillamette"), 2): Scroll to object 'Object Repository/Dutchie/Homepage/TJsWillamette' successfully
+
+2019-11-01 11:08:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Dutchie/Homepage/TJsWillamette' successfully
+
+2019-11-01 11:08:08 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Homepage/TJsWillamette")): Object: 'Object Repository/Dutchie/Homepage/TJsWillamette' is clicked on
+
+2019-11-01 11:08:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Homepage/TJsWillamette' is clicked on
+
+2019-11-01 11:08:09 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-11-01 11:08:09 - [MESSAGE][PASSED] - Wait for page load successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Try to order item from closed dispensary" time="45.813" classname="Test Cases/Dutchie/Try to order item from closed dispensary" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Dutchie/Try to order item from closed dispensary FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Dutchie/Open TJs Willamette dispensary' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Try to order item from closed dispensary.run(Try to order item from closed dispensary:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572602768587.run(TempTestSuite1572602768587.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/Dutchie/Homepage/TJsWillamette'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:2975)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$1.call(Unknown Source)
+	at Open TJs Willamette dispensary.run(Open TJs Willamette dispensary:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dutchie/Homepage/TJsWillamette' located by 'By.xpath: //*[text()=&quot;TJ's Willamette&quot;]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+"/>
+         <system-out><![CDATA[2019-11-01 11:08:09 - [TEST_CASE][FAILED] - Test Cases/Dutchie/Try to order item from closed dispensary: Test Cases/Dutchie/Try to order item from closed dispensary FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Dutchie/Open TJs Willamette dispensary' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Try to order item from closed dispensary.run(Try to order item from closed dispensary:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572602768587.run(TempTestSuite1572602768587.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/Dutchie/Homepage/TJsWillamette'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:2975)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$1.call(Unknown Source)
+	at Open TJs Willamette dispensary.run(Open TJs Willamette dispensary:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dutchie/Homepage/TJsWillamette' located by 'By.xpath: //*[text()="TJ's Willamette"]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+
+
+2019-11-01 11:08:10 - [TEST_STEP][FAILED] - callTestCase(findTestCase("Dutchie/Open TJs Willamette dispensary"), [:], STOP_ON_FAILURE): Unable to call Test Case 'Test Cases/Dutchie/Open TJs Willamette dispensary' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Dutchie/Open TJs Willamette dispensary' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Try to order item from closed dispensary.run(Try to order item from closed dispensary:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572602768587.run(TempTestSuite1572602768587.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/Dutchie/Homepage/TJsWillamette'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:2975)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$1.call(Unknown Source)
+	at Open TJs Willamette dispensary.run(Open TJs Willamette dispensary:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dutchie/Homepage/TJsWillamette' located by 'By.xpath: //*[text()="TJ's Willamette"]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)
+
+2019-11-01 11:08:10 - [TEST_CASE][FAILED] - Test Cases/Dutchie/Open TJs Willamette dispensary: Test Cases/Dutchie/Open TJs Willamette dispensary FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/Dutchie/Homepage/TJsWillamette'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:2975)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$1.call(Unknown Source)
+	at Open TJs Willamette dispensary.run(Open TJs Willamette dispensary:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Try to order item from closed dispensary.run(Try to order item from closed dispensary:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572602768587.run(TempTestSuite1572602768587.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dutchie/Homepage/TJsWillamette' located by 'By.xpath: //*[text()="TJ's Willamette"]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+
+
+2019-11-01 11:08:10 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 11:08:10 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 11:08:10 - [TEST_STEP][FAILED] - scrollToElement(findTestObject("Dutchie/Homepage/TJsWillamette"), 2): Unable to scroll to object 'Object Repository/Dutchie/Homepage/TJsWillamette' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/Dutchie/Homepage/TJsWillamette'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:2975)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$1.call(Unknown Source)
+	at Open TJs Willamette dispensary.run(Open TJs Willamette dispensary:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Try to order item from closed dispensary.run(Try to order item from closed dispensary:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572602768587.run(TempTestSuite1572602768587.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dutchie/Homepage/TJsWillamette' located by 'By.xpath: //*[text()="TJ's Willamette"]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:2975)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$1.call(Unknown Source)
+	at Script1572592614620.run(Script1572592614620.groovy:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Script1572592091375.run(Script1572592091375.groovy:18)
+	... 13 more
+)
+
+2019-11-01 11:08:54 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[text()="TJ's Willamette"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-11-01 11:08:55 - [MESSAGE][FAILED] - Unable to scroll to object 'Object Repository/Dutchie/Homepage/TJsWillamette' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/Dutchie/Homepage/TJsWillamette'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:2975)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$1.call(Unknown Source)
+	at Open TJs Willamette dispensary.run(Open TJs Willamette dispensary:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Try to order item from closed dispensary.run(Try to order item from closed dispensary:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572602768587.run(TempTestSuite1572602768587.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dutchie/Homepage/TJsWillamette' located by 'By.xpath: //*[text()="TJ's Willamette"]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:2975)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$1.call(Unknown Source)
+	at Script1572592614620.run(Script1572592614620.groovy:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Script1572592091375.run(Script1572592091375.groovy:18)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Bojana-PC\\git\\Katalon_studio\\Reports\\20191101_110604\\Dispensaries (working hours, filters, search results)\\20191101_110604\\1572602934693.png]]
+
+2019-11-01 11:08:55 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/Dutchie/Open TJs Willamette dispensary' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Dutchie/Open TJs Willamette dispensary' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Try to order item from closed dispensary.run(Try to order item from closed dispensary:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572602768587.run(TempTestSuite1572602768587.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/Dutchie/Homepage/TJsWillamette'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:2975)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$1.call(Unknown Source)
+	at Open TJs Willamette dispensary.run(Open TJs Willamette dispensary:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dutchie/Homepage/TJsWillamette' located by 'By.xpath: //*[text()="TJ's Willamette"]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)]]></system-out>
+         <system-err><![CDATA[2019-11-01 11:08:09 - [TEST_CASE][FAILED] - Test Cases/Dutchie/Try to order item from closed dispensary: Test Cases/Dutchie/Try to order item from closed dispensary FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Dutchie/Open TJs Willamette dispensary' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Try to order item from closed dispensary.run(Try to order item from closed dispensary:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572602768587.run(TempTestSuite1572602768587.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/Dutchie/Homepage/TJsWillamette'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:2975)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$1.call(Unknown Source)
+	at Open TJs Willamette dispensary.run(Open TJs Willamette dispensary:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dutchie/Homepage/TJsWillamette' located by 'By.xpath: //*[text()="TJ's Willamette"]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-01 11:06:11 - [TEST_SUITE][FAILED] - Dispensaries (working hours, filters, search results): Test Cases/Dutchie/Try to order item from closed dispensary FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Dutchie/Open TJs Willamette dispensary' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Try to order item from closed dispensary.run(Try to order item from closed dispensary:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572602768587.run(TempTestSuite1572602768587.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/Dutchie/Homepage/TJsWillamette'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:2975)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$1.call(Unknown Source)
+	at Open TJs Willamette dispensary.run(Open TJs Willamette dispensary:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dutchie/Homepage/TJsWillamette' located by 'By.xpath: //*[text()="TJ's Willamette"]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more]]></system-out>
+      <system-err><![CDATA[2019-11-01 11:06:11 - [TEST_SUITE][FAILED] - Dispensaries (working hours, filters, search results): Test Cases/Dutchie/Try to order item from closed dispensary FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Dutchie/Open TJs Willamette dispensary' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Try to order item from closed dispensary.run(Try to order item from closed dispensary:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572602768587.run(TempTestSuite1572602768587.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/Dutchie/Homepage/TJsWillamette'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:2975)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$1.call(Unknown Source)
+	at Open TJs Willamette dispensary.run(Open TJs Willamette dispensary:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dutchie/Homepage/TJsWillamette' located by 'By.xpath: //*[text()="TJ's Willamette"]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more]]></system-err>
+   </testsuite>
+</testsuites>

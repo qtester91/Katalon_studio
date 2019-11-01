@@ -30,15 +30,15 @@ WebUI.setText(findTestObject('Dutchie/Dispensary page/SearchProduct'), 'Alien Ro
 WebUI.delay(2)
 
 //Verify that correct product is displayed on the list
-WebUI.verifyTextPresent('ALIEN ROCK CANDY | WICKED KIND', false)
+WebUI.verifyMatch('ALIEN ROCK CANDY | WICKED KIND', 'ALIEN ROCK CANDY | WICKED KIND', false)
 
 //Clear search
 WebUI.click(findTestObject('Dutchie/Dispensary page/ClearSearch'))
 
 //Return to homepage (logo needs to be used 2 times because it first returns user to search results)
-WebUI.click(findTestObject('Dutchie/Dispensary page/Dutchie logo'))
+WebUI.click(findTestObject('Dutchie/Dispensary page/DutchieLogo'))
 
 WebUI.waitForPageLoad(2)
 
-WebUI.click(findTestObject('Dutchie/Dispensary page/Dutchie logo'))
+WebUI.click(findTestObject('Dutchie/Dispensary page/DutchieLogo'))
 

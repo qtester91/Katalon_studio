@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Dispensaries (working hours, filters, search results)" time="136.275" tests="10" failures="0" errors="0">
+   <testsuite name="Dispensaries (working hours, filters, search results)" tests="10" failures="0" errors="0" time="136.275" timestamp="2019-11-01 12:41:46" hostname="Bojana-PC - BOJANA" id="Test Suites/Dispensaries (working hours, filters, search results)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Bojana-PC\\git\\Katalon_studio\\Reports\\20191101_124137\\Dispensaries (working hours, filters, search results)\\20191101_124137"/>
+         <property name="logFiles" value="C:\\Users\\Bojana-PC\\git\\Katalon_studio\\Reports\\20191101_124137\\Dispensaries (working hours, filters, search results)\\20191101_124137\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Bojana-PC - BOJANA"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.3.1"/>
+         <property name="browser" value="Chrome 78.0.3904.87"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="5f80e59e2c5dd2d4c3afa8cd7c99aa22"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Dutchie/Working hours - Blooming Deals" time="30.163" classname="Test Cases/Dutchie/Working hours - Blooming Deals" status="PASSED">
+         <system-out><![CDATA[2019-11-01 12:41:47 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Working hours - Blooming Deals: Test Cases/Dutchie/Working hours - Blooming Deals
+
+2019-11-01 12:41:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Dutchie/Open Blooming Deals dispensary"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Dutchie/Open Blooming Deals dispensary' successfully
+
+2019-11-01 12:41:48 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Open Blooming Deals dispensary: Test Cases/Dutchie/Open Blooming Deals dispensary
+
+2019-11-01 12:41:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Dutchie/Open Dutchie homepage' successfully
+
+2019-11-01 12:41:49 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Open Dutchie homepage: Test Cases/Dutchie/Open Dutchie homepage
+
+2019-11-01 12:41:49 - [TEST_STEP][PASSED] - openBrowser("https://qa.dutchie.dev/home"): Browser is opened with url: 'https://qa.dutchie.dev/home'
+
+2019-11-01 12:41:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-11-01 12:41:50 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-11-01 12:42:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.dutchie.dev/home'
+
+2019-11-01 12:42:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-11-01 12:42:06 - [MESSAGE][PASSED] - Current window maximized
+
+2019-11-01 12:42:06 - [TEST_STEP][NOT_RUN] - verifyElementPresent(findTestObject("Dutchie/Homepage/searchBar"), 10): NOT_RUN: verifyElementPresent(findTestObject("Dutchie/Homepage/searchBar"), 10)
+
+2019-11-01 12:42:06 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent(findTestObject("Dutchie/Homepage/searchBar"), 10)
+
+2019-11-01 12:42:06 - [TEST_STEP][NOT_RUN] - closeBrowser(): NOT_RUN: closeBrowser()
+
+2019-11-01 12:42:06 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser()
+
+2019-11-01 12:42:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dutchie/Open Dutchie homepage' successfully
+
+2019-11-01 12:42:06 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Dutchie/Homepage/BloomingDealsLink"), 0): Scroll to object 'Object Repository/Dutchie/Homepage/BloomingDealsLink' successfully
+
+2019-11-01 12:42:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-01 12:42:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Dutchie/Homepage/BloomingDealsLink' successfully
+
+2019-11-01 12:42:07 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Homepage/BloomingDealsLink")): Object: 'Object Repository/Dutchie/Homepage/BloomingDealsLink' is clicked on
+
+2019-11-01 12:42:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Homepage/BloomingDealsLink' is clicked on
+
+2019-11-01 12:42:08 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-11-01 12:42:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-01 12:42:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dutchie/Open Blooming Deals dispensary' successfully
+
+2019-11-01 12:42:08 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/WorkingHours")): Object: 'Object Repository/Dutchie/Dispensary page/WorkingHours' is clicked on
+
+2019-11-01 12:42:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/WorkingHours' is clicked on
+
+2019-11-01 12:42:13 - [TEST_STEP][PASSED] - verifyTextPresent("Pickup", false): Text 'Pickup' is present on page 
+
+2019-11-01 12:42:15 - [MESSAGE][PASSED] - Text 'Pickup' is present on page 
+
+2019-11-01 12:42:15 - [TEST_STEP][PASSED] - verifyTextPresent("Delivery", false): Text 'Delivery' is present on page 
+
+2019-11-01 12:42:15 - [MESSAGE][PASSED] - Text 'Delivery' is present on page 
+
+2019-11-01 12:42:15 - [TEST_STEP][PASSED] - verifyTextPresent("Location", false): Text 'Location' is present on page 
+
+2019-11-01 12:42:16 - [MESSAGE][PASSED] - Text 'Location' is present on page 
+
+2019-11-01 12:42:16 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/DutchieLogo")): Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 12:42:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Check functionality of links in the menu" time="20.593" classname="Test Cases/Dutchie/Check functionality of links in the menu" status="PASSED">
+         <system-out><![CDATA[2019-11-01 12:42:17 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Check functionality of links in the menu: Test Cases/Dutchie/Check functionality of links in the menu
+
+2019-11-01 12:42:18 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 12:42:18 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 12:42:18 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Dutchie/Homepage/ChaliceFarmLink"), 3): Scroll to object 'Object Repository/Dutchie/Homepage/ChaliceFarmLink' successfully
+
+2019-11-01 12:42:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Dutchie/Homepage/ChaliceFarmLink' successfully
+
+2019-11-01 12:42:19 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Homepage/ChaliceFarmLink")): Object: 'Object Repository/Dutchie/Homepage/ChaliceFarmLink' is clicked on
+
+2019-11-01 12:42:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Homepage/ChaliceFarmLink' is clicked on
+
+2019-11-01 12:42:19 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-11-01 12:42:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-01 12:42:19 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Filters in the menu/Pre-Rolls")): Object: 'Object Repository/Dutchie/Filters in the menu/Pre-Rolls' is clicked on
+
+2019-11-01 12:42:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Filters in the menu/Pre-Rolls' is clicked on
+
+2019-11-01 12:42:23 - [TEST_STEP][PASSED] - verifyTextPresent("Pre-Rolls", false): Text 'Pre-Rolls' is present on page 
+
+2019-11-01 12:42:25 - [MESSAGE][PASSED] - Text 'Pre-Rolls' is present on page 
+
+2019-11-01 12:42:25 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Filters in the menu/Vaporizers")): Object: 'Object Repository/Dutchie/Filters in the menu/Vaporizers' is clicked on
+
+2019-11-01 12:42:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Filters in the menu/Vaporizers' is clicked on
+
+2019-11-01 12:42:26 - [TEST_STEP][PASSED] - verifyTextPresent("Vaporizers", false): Text 'Vaporizers' is present on page 
+
+2019-11-01 12:42:28 - [MESSAGE][PASSED] - Text 'Vaporizers' is present on page 
+
+2019-11-01 12:42:28 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Filters in the menu/Concentrates")): Object: 'Object Repository/Dutchie/Filters in the menu/Concentrates' is clicked on
+
+2019-11-01 12:42:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Filters in the menu/Concentrates' is clicked on
+
+2019-11-01 12:42:28 - [TEST_STEP][PASSED] - verifyTextPresent("Concentrates", false): Text 'Concentrates' is present on page 
+
+2019-11-01 12:42:30 - [MESSAGE][PASSED] - Text 'Concentrates' is present on page 
+
+2019-11-01 12:42:30 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Filters in the menu/Edibles")): Object: 'Object Repository/Dutchie/Filters in the menu/Edibles' is clicked on
+
+2019-11-01 12:42:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Filters in the menu/Edibles' is clicked on
+
+2019-11-01 12:42:31 - [TEST_STEP][PASSED] - verifyTextPresent("Edibles", false): Text 'Edibles' is present on page 
+
+2019-11-01 12:42:32 - [MESSAGE][PASSED] - Text 'Edibles' is present on page 
+
+2019-11-01 12:42:32 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Filters in the menu/Topicals")): Object: 'Object Repository/Dutchie/Filters in the menu/Topicals' is clicked on
+
+2019-11-01 12:42:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Filters in the menu/Topicals' is clicked on
+
+2019-11-01 12:42:33 - [TEST_STEP][PASSED] - verifyTextPresent("Topicals", false): Text 'Topicals' is present on page 
+
+2019-11-01 12:42:35 - [MESSAGE][PASSED] - Text 'Topicals' is present on page 
+
+2019-11-01 12:42:35 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Filters in the menu/Flower")): Object: 'Object Repository/Dutchie/Filters in the menu/Flower' is clicked on
+
+2019-11-01 12:42:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Filters in the menu/Flower' is clicked on
+
+2019-11-01 12:42:35 - [TEST_STEP][PASSED] - verifyTextPresent("Flower", false): Text 'Flower' is present on page 
+
+2019-11-01 12:42:37 - [MESSAGE][PASSED] - Text 'Flower' is present on page 
+
+2019-11-01 12:42:37 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/DutchieLogo")): Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 12:42:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/List Seattle dispensaries" time="10.878" classname="Test Cases/Dutchie/List Seattle dispensaries" status="PASSED">
+         <system-out><![CDATA[2019-11-01 12:42:38 - [TEST_CASE][PASSED] - Test Cases/Dutchie/List Seattle dispensaries: Test Cases/Dutchie/List Seattle dispensaries
+
+2019-11-01 12:42:38 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 12:42:38 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 12:42:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dutchie/Homepage/searchBar"), 5): Object 'Object Repository/Dutchie/Homepage/searchBar' is present
+
+2019-11-01 12:42:39 - [MESSAGE][PASSED] - Object 'Object Repository/Dutchie/Homepage/searchBar' is present
+
+2019-11-01 12:42:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Dutchie/Homepage/searchBar"), "Seattle"): Keys 'Seattle' sent to object: 'Object Repository/Dutchie/Homepage/searchBar'
+
+2019-11-01 12:42:40 - [MESSAGE][PASSED] - Keys 'Seattle' sent to object: 'Object Repository/Dutchie/Homepage/searchBar'
+
+2019-11-01 12:42:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 12:42:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 12:42:42 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Dutchie/Homepage/FirstDispensaryInDropDown"), 2): Scroll to object 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown' successfully
+
+2019-11-01 12:42:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown' successfully
+
+2019-11-01 12:42:42 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Homepage/FirstDispensaryInDropDown")): Object: 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown' is clicked on
+
+2019-11-01 12:42:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown' is clicked on
+
+2019-11-01 12:42:42 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-11-01 12:42:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-11-01 12:42:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dutchie/Search results/Seattle,WA"), 2): Object 'Object Repository/Dutchie/Search results/Seattle,WA' is present
+
+2019-11-01 12:42:48 - [MESSAGE][PASSED] - Object 'Object Repository/Dutchie/Search results/Seattle,WA' is present
+
+2019-11-01 12:42:48 - [TEST_STEP][PASSED] - verifyTextPresent("Dispensaries ", false): Text 'Dispensaries ' is present on page 
+
+2019-11-01 12:42:48 - [MESSAGE][PASSED] - Text 'Dispensaries ' is present on page 
+
+2019-11-01 12:42:48 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/DutchieLogo")): Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 12:42:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Get Eugene dispensaries" time="5.41" classname="Test Cases/Dutchie/Get Eugene dispensaries" status="PASSED">
+         <system-out><![CDATA[2019-11-01 12:42:49 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Get Eugene dispensaries: Test Cases/Dutchie/Get Eugene dispensaries
+
+2019-11-01 12:42:49 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 12:42:49 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 12:42:49 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Dutchie/Homepage/EugeneLink"), 2): Scroll to object 'Object Repository/Dutchie/Homepage/EugeneLink' successfully
+
+2019-11-01 12:42:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Dutchie/Homepage/EugeneLink' successfully
+
+2019-11-01 12:42:49 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Homepage/EugeneLink")): Object: 'Object Repository/Dutchie/Homepage/EugeneLink' is clicked on
+
+2019-11-01 12:42:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Homepage/EugeneLink' is clicked on
+
+2019-11-01 12:42:50 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-11-01 12:42:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-01 12:42:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dutchie/Search results/EugeneOR"), 2): Unable to find the element located by 'By.xpath: //*[@class='legacy-rebass__Truncate-mknjx2-2 jtEaXb']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-11-01 12:42:54 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@class='legacy-rebass__Truncate-mknjx2-2 jtEaXb']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-11-01 12:42:54 - [TEST_STEP][PASSED] - verifyTextPresent("Dispensaries ", false): Text 'Dispensaries ' is present on page 
+
+2019-11-01 12:42:54 - [MESSAGE][PASSED] - Text 'Dispensaries ' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Search product" time="6.616" classname="Test Cases/Dutchie/Search product" status="PASSED">
+         <system-out><![CDATA[2019-11-01 12:42:54 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Search product: Test Cases/Dutchie/Search product
+
+2019-11-01 12:42:54 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Get Eugene dispensaries"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Get Eugene dispensaries"), [:], STOP_ON_FAILURE)
+
+2019-11-01 12:42:54 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Get Eugene dispensaries"), [:], STOP_ON_FAILURE)
+
+2019-11-01 12:42:54 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/AmazonOrganics")): Object: 'Object Repository/Dutchie/Search results/AmazonOrganics' is clicked on
+
+2019-11-01 12:42:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/AmazonOrganics' is clicked on
+
+2019-11-01 12:42:55 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-11-01 12:42:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-01 12:42:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dutchie/Dispensary page/SearchProduct"), 2): Object 'Object Repository/Dutchie/Dispensary page/SearchProduct' is present
+
+2019-11-01 12:42:56 - [MESSAGE][PASSED] - Object 'Object Repository/Dutchie/Dispensary page/SearchProduct' is present
+
+2019-11-01 12:42:56 - [TEST_STEP][PASSED] - setText(findTestObject("Dutchie/Dispensary page/SearchProduct"), "Alien Rock"): Text 'Alien Rock' is set on object 'Object Repository/Dutchie/Dispensary page/SearchProduct'
+
+2019-11-01 12:42:56 - [MESSAGE][PASSED] - Text 'Alien Rock' is set on object 'Object Repository/Dutchie/Dispensary page/SearchProduct'
+
+2019-11-01 12:42:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 12:42:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 12:42:58 - [TEST_STEP][PASSED] - verifyMatch("ALIEN ROCK CANDY | WICKED KIND", "ALIEN ROCK CANDY | WICKED KIND", false): Actual text 'ALIEN ROCK CANDY | WICKED KIND' and expected text 'ALIEN ROCK CANDY | WICKED KIND' are matched 
+
+2019-11-01 12:42:58 - [MESSAGE][PASSED] - Actual text 'ALIEN ROCK CANDY | WICKED KIND' and expected text 'ALIEN ROCK CANDY | WICKED KIND' are matched 
+
+2019-11-01 12:42:58 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/ClearSearch")): Object: 'Object Repository/Dutchie/Dispensary page/ClearSearch' is clicked on
+
+2019-11-01 12:42:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/ClearSearch' is clicked on
+
+2019-11-01 12:42:59 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/DutchieLogo")): Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 12:43:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 12:43:00 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-11-01 12:43:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-01 12:43:00 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/DutchieLogo")): Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 12:43:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Check functionality of filters on the search result page" time="25.649" classname="Test Cases/Dutchie/Check functionality of filters on the search result page" status="PASSED">
+         <system-out><![CDATA[2019-11-01 12:43:01 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Check functionality of filters on the search result page: Test Cases/Dutchie/Check functionality of filters on the search result page
+
+2019-11-01 12:43:01 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 12:43:01 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 12:43:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Dutchie/Homepage/searchBar"), "Portland"): Keys 'Portland' sent to object: 'Object Repository/Dutchie/Homepage/searchBar'
+
+2019-11-01 12:43:01 - [MESSAGE][PASSED] - Keys 'Portland' sent to object: 'Object Repository/Dutchie/Homepage/searchBar'
+
+2019-11-01 12:43:01 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Dutchie/Homepage/FirstDispensaryInDropDown"), 2): Scroll to object 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown' successfully
+
+2019-11-01 12:43:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown' successfully
+
+2019-11-01 12:43:02 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Homepage/FirstDispensaryInDropDown")): Object: 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown' is clicked on
+
+2019-11-01 12:43:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown' is clicked on
+
+2019-11-01 12:43:02 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-11-01 12:43:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-01 12:43:03 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/OpenForDelivery")): Object: 'Object Repository/Dutchie/Search results/OpenForDelivery' is clicked on
+
+2019-11-01 12:43:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/OpenForDelivery' is clicked on
+
+2019-11-01 12:43:03 - [TEST_STEP][PASSED] - verifyMatch("We couldn't find any dispensaries!", "We couldn't find any dispensaries!", false): Actual text 'We couldn't find any dispensaries!' and expected text 'We couldn't find any dispensaries!' are matched 
+
+2019-11-01 12:43:03 - [MESSAGE][PASSED] - Actual text 'We couldn't find any dispensaries!' and expected text 'We couldn't find any dispensaries!' are matched 
+
+2019-11-01 12:43:03 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/OpenForDelivery")): Object: 'Object Repository/Dutchie/Search results/OpenForDelivery' is clicked on
+
+2019-11-01 12:43:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/OpenForDelivery' is clicked on
+
+2019-11-01 12:43:04 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-11-01 12:43:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-11-01 12:43:09 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/NoDeliveryMinimum")): Object: 'Object Repository/Dutchie/Search results/NoDeliveryMinimum' is clicked on
+
+2019-11-01 12:43:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/NoDeliveryMinimum' is clicked on
+
+2019-11-01 12:43:10 - [TEST_STEP][PASSED] - verifyMatch("We couldn't find any dispensaries!", "We couldn't find any dispensaries!", false): Actual text 'We couldn't find any dispensaries!' and expected text 'We couldn't find any dispensaries!' are matched 
+
+2019-11-01 12:43:10 - [MESSAGE][PASSED] - Actual text 'We couldn't find any dispensaries!' and expected text 'We couldn't find any dispensaries!' are matched 
+
+2019-11-01 12:43:10 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/NoDeliveryMinimum")): Object: 'Object Repository/Dutchie/Search results/NoDeliveryMinimum' is clicked on
+
+2019-11-01 12:43:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/NoDeliveryMinimum' is clicked on
+
+2019-11-01 12:43:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-11-01 12:43:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-11-01 12:43:16 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/AcceptsCreditCards")): Object: 'Object Repository/Dutchie/Search results/AcceptsCreditCards' is clicked on
+
+2019-11-01 12:43:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/AcceptsCreditCards' is clicked on
+
+2019-11-01 12:43:16 - [TEST_STEP][PASSED] - verifyTextNotPresent("We couldn't find any dispensaries!", false, STOP_ON_FAILURE): Text 'We couldn't find any dispensaries!' is not present on page
+
+2019-11-01 12:43:17 - [MESSAGE][PASSED] - Text 'We couldn't find any dispensaries!' is not present on page
+
+2019-11-01 12:43:17 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/AcceptsCreditCards")): Object: 'Object Repository/Dutchie/Search results/AcceptsCreditCards' is clicked on
+
+2019-11-01 12:43:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/AcceptsCreditCards' is clicked on
+
+2019-11-01 12:43:18 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-11-01 12:43:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-11-01 12:43:23 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/FreeDelivery")): Object: 'Object Repository/Dutchie/Search results/FreeDelivery' is clicked on
+
+2019-11-01 12:43:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/FreeDelivery' is clicked on
+
+2019-11-01 12:43:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 12:43:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 12:43:26 - [TEST_STEP][PASSED] - verifyMatch("Diem Delivery", "Diem Delivery", false): Actual text 'Diem Delivery' and expected text 'Diem Delivery' are matched 
+
+2019-11-01 12:43:26 - [MESSAGE][PASSED] - Actual text 'Diem Delivery' and expected text 'Diem Delivery' are matched 
+
+2019-11-01 12:43:26 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/DutchieLogo")): Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 12:43:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 12:43:26 - [TEST_STEP][PASSED] - waitForPageLoad(3): Wait for page load successfully
+
+2019-11-01 12:43:26 - [MESSAGE][PASSED] - Wait for page load successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Deselect all filters on the search results page" time="16.857" classname="Test Cases/Dutchie/Deselect all filters on the search results page" status="PASSED">
+         <system-out><![CDATA[2019-11-01 12:43:26 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Deselect all filters on the search results page: Test Cases/Dutchie/Deselect all filters on the search results page
+
+2019-11-01 12:43:27 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 12:43:27 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 12:43:27 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Dutchie/Homepage/EugeneLink"), 2): Scroll to object 'Object Repository/Dutchie/Homepage/EugeneLink' successfully
+
+2019-11-01 12:43:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Dutchie/Homepage/EugeneLink' successfully
+
+2019-11-01 12:43:27 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Homepage/EugeneLink")): Object: 'Object Repository/Dutchie/Homepage/EugeneLink' is clicked on
+
+2019-11-01 12:43:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Homepage/EugeneLink' is clicked on
+
+2019-11-01 12:43:27 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-11-01 12:43:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-01 12:43:28 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/OpenForDelivery")): Object: 'Object Repository/Dutchie/Search results/OpenForDelivery' is clicked on
+
+2019-11-01 12:43:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/OpenForDelivery' is clicked on
+
+2019-11-01 12:43:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 12:43:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 12:43:30 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/FreeDelivery")): Object: 'Object Repository/Dutchie/Search results/FreeDelivery' is clicked on
+
+2019-11-01 12:43:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/FreeDelivery' is clicked on
+
+2019-11-01 12:43:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 12:43:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 12:43:33 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/NoDeliveryMinimum")): Object: 'Object Repository/Dutchie/Search results/NoDeliveryMinimum' is clicked on
+
+2019-11-01 12:43:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/NoDeliveryMinimum' is clicked on
+
+2019-11-01 12:43:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 12:43:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 12:43:35 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/AcceptsCreditCards")): Object: 'Object Repository/Dutchie/Search results/AcceptsCreditCards' is clicked on
+
+2019-11-01 12:43:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/AcceptsCreditCards' is clicked on
+
+2019-11-01 12:43:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 12:43:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 12:43:38 - [TEST_STEP][PASSED] - verifyMatch("Amazon Organics", "Amazon Organics", false): Actual text 'Amazon Organics' and expected text 'Amazon Organics' are matched 
+
+2019-11-01 12:43:38 - [MESSAGE][PASSED] - Actual text 'Amazon Organics' and expected text 'Amazon Organics' are matched 
+
+2019-11-01 12:43:38 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/ClearAll")): Object: 'Object Repository/Dutchie/Search results/ClearAll' is clicked on
+
+2019-11-01 12:43:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/ClearAll' is clicked on
+
+2019-11-01 12:43:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 12:43:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 12:43:40 - [TEST_STEP][PASSED] - verifyMatch("Dispensaries (19)", "Dispensaries (19)", false): Actual text 'Dispensaries (19)' and expected text 'Dispensaries (19)' are matched 
+
+2019-11-01 12:43:40 - [MESSAGE][PASSED] - Actual text 'Dispensaries (19)' and expected text 'Dispensaries (19)' are matched 
+
+2019-11-01 12:43:40 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/DutchieLogo")): Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 12:43:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 12:43:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 12:43:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 12:43:43 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/DutchieLogo")): Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 12:43:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Open TJs Willamette dispensary" time="1.033" classname="Test Cases/Dutchie/Open TJs Willamette dispensary" status="PASSED">
+         <system-out><![CDATA[2019-11-01 12:43:43 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Open TJs Willamette dispensary: Test Cases/Dutchie/Open TJs Willamette dispensary
+
+2019-11-01 12:43:43 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 12:43:43 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 12:43:43 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Dutchie/Homepage/TJsWillamette"), 2): Scroll to object 'Object Repository/Dutchie/Homepage/TJsWillamette' successfully
+
+2019-11-01 12:43:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Dutchie/Homepage/TJsWillamette' successfully
+
+2019-11-01 12:43:44 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Homepage/TJsWillamette")): Object: 'Object Repository/Dutchie/Homepage/TJsWillamette' is clicked on
+
+2019-11-01 12:43:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Homepage/TJsWillamette' is clicked on
+
+2019-11-01 12:43:44 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-11-01 12:43:44 - [MESSAGE][PASSED] - Wait for page load successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Try to order item from closed dispensary" time="6.573" classname="Test Cases/Dutchie/Try to order item from closed dispensary" status="PASSED">
+         <system-out><![CDATA[2019-11-01 12:43:44 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Try to order item from closed dispensary: Test Cases/Dutchie/Try to order item from closed dispensary
+
+2019-11-01 12:43:44 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Open TJs Willamette dispensary"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Open TJs Willamette dispensary"), [:], STOP_ON_FAILURE)
+
+2019-11-01 12:43:44 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Open TJs Willamette dispensary"), [:], STOP_ON_FAILURE)
+
+2019-11-01 12:43:44 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/BensonArborRoadDawg")): Object: 'Object Repository/Dutchie/Dispensary page/BensonArborRoadDawg' is clicked on
+
+2019-11-01 12:43:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/BensonArborRoadDawg' is clicked on
+
+2019-11-01 12:43:47 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-11-01 12:43:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 12:43:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 12:43:49 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Product modal/AddToCart_xpath")): Object: 'Object Repository/Dutchie/Product modal/AddToCart_xpath' is clicked on
+
+2019-11-01 12:43:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Product modal/AddToCart_xpath' is clicked on
+
+2019-11-01 12:43:50 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-11-01 12:43:50 - [TEST_STEP][PASSED] - verifyMatch("Sorry, TJ's on Willamette is closed!", "Sorry, TJ's on Willamette is closed!", false): Actual text 'Sorry, TJ's on Willamette is closed!' and expected text 'Sorry, TJ's on Willamette is closed!' are matched 
+
+2019-11-01 12:43:50 - [MESSAGE][PASSED] - Actual text 'Sorry, TJ's on Willamette is closed!' and expected text 'Sorry, TJ's on Willamette is closed!' are matched 
+
+2019-11-01 12:43:50 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Post-checkout modal/GotItButton")): Object: 'Object Repository/Dutchie/Post-checkout modal/GotItButton' is clicked on
+
+2019-11-01 12:43:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Post-checkout modal/GotItButton' is clicked on
+
+2019-11-01 12:43:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Dutchie/Dispensary page/EmptyCart"), "0"): Actual text and expected text of test object 'Object Repository/Dutchie/Dispensary page/EmptyCart' are matched.
+
+2019-11-01 12:43:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Dutchie/Dispensary page/EmptyCart' are matched.
+
+2019-11-01 12:43:51 - [TEST_STEP][NOT_RUN] - click(findTestObject("Dutchie/Dispensary page/DutchieLogo")): NOT_RUN: click(findTestObject("Dutchie/Dispensary page/DutchieLogo"))
+
+2019-11-01 12:43:51 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Dutchie/Dispensary page/DutchieLogo"))]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Filter items from dispensary by Brand" time="10.973" classname="Test Cases/Dutchie/Filter items from dispensary by Brand" status="PASSED">
+         <system-out><![CDATA[2019-11-01 12:43:51 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Filter items from dispensary by Brand: Test Cases/Dutchie/Filter items from dispensary by Brand
+
+2019-11-01 12:43:51 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Open TJs Willamette dispensary"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Open TJs Willamette dispensary"), [:], STOP_ON_FAILURE)
+
+2019-11-01 12:43:51 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Open TJs Willamette dispensary"), [:], STOP_ON_FAILURE)
+
+2019-11-01 12:43:51 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/BrandDropDown")): Object: 'Object Repository/Dutchie/Dispensary page/BrandDropDown' is clicked on
+
+2019-11-01 12:43:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/BrandDropDown' is clicked on
+
+2019-11-01 12:43:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 12:43:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 12:43:53 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Dutchie/Dispensary page/Claim52BrandType"), 2): Scroll to object 'Object Repository/Dutchie/Dispensary page/Claim52BrandType' successfully
+
+2019-11-01 12:43:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Dutchie/Dispensary page/Claim52BrandType' successfully
+
+2019-11-01 12:43:54 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/Claim52BrandType")): Object: 'Object Repository/Dutchie/Dispensary page/Claim52BrandType' is clicked on
+
+2019-11-01 12:43:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/Claim52BrandType' is clicked on
+
+2019-11-01 12:43:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 12:43:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 12:43:56 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/TJsX_Claim52RESTASH_JAR")): Object: 'Object Repository/Dutchie/Dispensary page/TJsX_Claim52RESTASH_JAR' is clicked on
+
+2019-11-01 12:43:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/TJsX_Claim52RESTASH_JAR' is clicked on
+
+2019-11-01 12:43:57 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-11-01 12:43:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 12:43:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 12:43:59 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Product modal/AddToCart_xpath")): Object: 'Object Repository/Dutchie/Product modal/AddToCart_xpath' is clicked on
+
+2019-11-01 12:43:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Product modal/AddToCart_xpath' is clicked on
+
+2019-11-01 12:43:59 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-11-01 12:43:59 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Post-checkout modal/GotItButton")): Object: 'Object Repository/Dutchie/Post-checkout modal/GotItButton' is clicked on
+
+2019-11-01 12:44:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Post-checkout modal/GotItButton' is clicked on
+
+2019-11-01 12:44:00 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/DutchieLogo")): Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 12:44:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 12:44:01 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-11-01 12:44:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-01 12:44:01 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/DutchieLogo")): Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 12:44:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-01 12:41:46 - [TEST_SUITE][PASSED] - Dispensaries (working hours, filters, search results): Test Cases/Dutchie/Filter items from dispensary by Brand]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

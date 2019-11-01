@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Dispensaries (working hours, filters, search results)" time="151.713" tests="10" failures="1" errors="0">
+   <testsuite name="Dispensaries (working hours, filters, search results)" tests="10" failures="1" errors="0" time="151.713" timestamp="2019-11-01 12:12:51" hostname="Bojana-PC - BOJANA" id="Test Suites/Dispensaries (working hours, filters, search results)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Bojana-PC\\git\\Katalon_studio\\Reports\\20191101_121243\\Dispensaries (working hours, filters, search results)\\20191101_121243"/>
+         <property name="logFiles" value="C:\\Users\\Bojana-PC\\git\\Katalon_studio\\Reports\\20191101_121243\\Dispensaries (working hours, filters, search results)\\20191101_121243\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Bojana-PC\\git\\Katalon_studio\\Reports\\20191101_121243\\Dispensaries (working hours, filters, search results)\\20191101_121243\\1572606846714.png"/>
+         <property name="hostName" value="Bojana-PC - BOJANA"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.3.1"/>
+         <property name="browser" value="Chrome 78.0.3904.87"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="0bc6930cac4c01fddefd6507f47e17b8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Dutchie/Working hours - Blooming Deals" time="25.21" classname="Test Cases/Dutchie/Working hours - Blooming Deals" status="PASSED">
+         <system-out><![CDATA[2019-11-01 12:12:51 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Working hours - Blooming Deals: Test Cases/Dutchie/Working hours - Blooming Deals
+
+2019-11-01 12:12:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Dutchie/Open Blooming Deals dispensary"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Dutchie/Open Blooming Deals dispensary' successfully
+
+2019-11-01 12:12:52 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Open Blooming Deals dispensary: Test Cases/Dutchie/Open Blooming Deals dispensary
+
+2019-11-01 12:12:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Dutchie/Open Dutchie homepage' successfully
+
+2019-11-01 12:12:52 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Open Dutchie homepage: Test Cases/Dutchie/Open Dutchie homepage
+
+2019-11-01 12:12:53 - [TEST_STEP][PASSED] - openBrowser("https://qa.dutchie.dev/home"): Browser is opened with url: 'https://qa.dutchie.dev/home'
+
+2019-11-01 12:12:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-11-01 12:12:53 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-11-01 12:13:06 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.dutchie.dev/home'
+
+2019-11-01 12:13:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-11-01 12:13:10 - [MESSAGE][PASSED] - Current window maximized
+
+2019-11-01 12:13:10 - [TEST_STEP][NOT_RUN] - verifyElementPresent(findTestObject("Dutchie/Homepage/searchBar"), 10): NOT_RUN: verifyElementPresent(findTestObject("Dutchie/Homepage/searchBar"), 10)
+
+2019-11-01 12:13:10 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent(findTestObject("Dutchie/Homepage/searchBar"), 10)
+
+2019-11-01 12:13:10 - [TEST_STEP][NOT_RUN] - closeBrowser(): NOT_RUN: closeBrowser()
+
+2019-11-01 12:13:10 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser()
+
+2019-11-01 12:13:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dutchie/Open Dutchie homepage' successfully
+
+2019-11-01 12:13:10 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Dutchie/Homepage/BloomingDealsLink"), 0): Scroll to object 'Object Repository/Dutchie/Homepage/BloomingDealsLink' successfully
+
+2019-11-01 12:13:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-01 12:13:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Dutchie/Homepage/BloomingDealsLink' successfully
+
+2019-11-01 12:13:10 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Homepage/BloomingDealsLink")): Object: 'Object Repository/Dutchie/Homepage/BloomingDealsLink' is clicked on
+
+2019-11-01 12:13:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Homepage/BloomingDealsLink' is clicked on
+
+2019-11-01 12:13:11 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-11-01 12:13:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-01 12:13:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dutchie/Open Blooming Deals dispensary' successfully
+
+2019-11-01 12:13:11 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/WorkingHours")): Object: 'Object Repository/Dutchie/Dispensary page/WorkingHours' is clicked on
+
+2019-11-01 12:13:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/WorkingHours' is clicked on
+
+2019-11-01 12:13:13 - [TEST_STEP][PASSED] - verifyTextPresent("Pickup", false): Text 'Pickup' is present on page 
+
+2019-11-01 12:13:15 - [MESSAGE][PASSED] - Text 'Pickup' is present on page 
+
+2019-11-01 12:13:15 - [TEST_STEP][PASSED] - verifyTextPresent("Delivery", false): Text 'Delivery' is present on page 
+
+2019-11-01 12:13:16 - [MESSAGE][PASSED] - Text 'Delivery' is present on page 
+
+2019-11-01 12:13:16 - [TEST_STEP][PASSED] - verifyTextPresent("Location", false): Text 'Location' is present on page 
+
+2019-11-01 12:13:16 - [MESSAGE][PASSED] - Text 'Location' is present on page 
+
+2019-11-01 12:13:16 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/DutchieLogo")): Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 12:13:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Check functionality of links in the menu" time="15.577" classname="Test Cases/Dutchie/Check functionality of links in the menu" status="PASSED">
+         <system-out><![CDATA[2019-11-01 12:13:16 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Check functionality of links in the menu: Test Cases/Dutchie/Check functionality of links in the menu
+
+2019-11-01 12:13:17 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 12:13:17 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 12:13:17 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Dutchie/Homepage/ChaliceFarmLink"), 3): Scroll to object 'Object Repository/Dutchie/Homepage/ChaliceFarmLink' successfully
+
+2019-11-01 12:13:17 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Dutchie/Homepage/ChaliceFarmLink' successfully
+
+2019-11-01 12:13:17 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Homepage/ChaliceFarmLink")): Object: 'Object Repository/Dutchie/Homepage/ChaliceFarmLink' is clicked on
+
+2019-11-01 12:13:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Homepage/ChaliceFarmLink' is clicked on
+
+2019-11-01 12:13:18 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-11-01 12:13:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-01 12:13:18 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Filters in the menu/Pre-Rolls")): Object: 'Object Repository/Dutchie/Filters in the menu/Pre-Rolls' is clicked on
+
+2019-11-01 12:13:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Filters in the menu/Pre-Rolls' is clicked on
+
+2019-11-01 12:13:19 - [TEST_STEP][PASSED] - verifyTextPresent("Pre-Rolls", false): Text 'Pre-Rolls' is present on page 
+
+2019-11-01 12:13:21 - [MESSAGE][PASSED] - Text 'Pre-Rolls' is present on page 
+
+2019-11-01 12:13:21 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Filters in the menu/Vaporizers")): Object: 'Object Repository/Dutchie/Filters in the menu/Vaporizers' is clicked on
+
+2019-11-01 12:13:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Filters in the menu/Vaporizers' is clicked on
+
+2019-11-01 12:13:21 - [TEST_STEP][PASSED] - verifyTextPresent("Vaporizers", false): Text 'Vaporizers' is present on page 
+
+2019-11-01 12:13:23 - [MESSAGE][PASSED] - Text 'Vaporizers' is present on page 
+
+2019-11-01 12:13:23 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Filters in the menu/Concentrates")): Object: 'Object Repository/Dutchie/Filters in the menu/Concentrates' is clicked on
+
+2019-11-01 12:13:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Filters in the menu/Concentrates' is clicked on
+
+2019-11-01 12:13:23 - [TEST_STEP][PASSED] - verifyTextPresent("Concentrates", false): Text 'Concentrates' is present on page 
+
+2019-11-01 12:13:25 - [MESSAGE][PASSED] - Text 'Concentrates' is present on page 
+
+2019-11-01 12:13:25 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Filters in the menu/Edibles")): Object: 'Object Repository/Dutchie/Filters in the menu/Edibles' is clicked on
+
+2019-11-01 12:13:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Filters in the menu/Edibles' is clicked on
+
+2019-11-01 12:13:25 - [TEST_STEP][PASSED] - verifyTextPresent("Edibles", false): Text 'Edibles' is present on page 
+
+2019-11-01 12:13:27 - [MESSAGE][PASSED] - Text 'Edibles' is present on page 
+
+2019-11-01 12:13:27 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Filters in the menu/Topicals")): Object: 'Object Repository/Dutchie/Filters in the menu/Topicals' is clicked on
+
+2019-11-01 12:13:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Filters in the menu/Topicals' is clicked on
+
+2019-11-01 12:13:27 - [TEST_STEP][PASSED] - verifyTextPresent("Topicals", false): Text 'Topicals' is present on page 
+
+2019-11-01 12:13:29 - [MESSAGE][PASSED] - Text 'Topicals' is present on page 
+
+2019-11-01 12:13:29 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Filters in the menu/Flower")): Object: 'Object Repository/Dutchie/Filters in the menu/Flower' is clicked on
+
+2019-11-01 12:13:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Filters in the menu/Flower' is clicked on
+
+2019-11-01 12:13:29 - [TEST_STEP][PASSED] - verifyTextPresent("Flower", false): Text 'Flower' is present on page 
+
+2019-11-01 12:13:31 - [MESSAGE][PASSED] - Text 'Flower' is present on page 
+
+2019-11-01 12:13:31 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/DutchieLogo")): Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 12:13:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/List Seattle dispensaries" time="34.805" classname="Test Cases/Dutchie/List Seattle dispensaries" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Dutchie/List Seattle dispensaries FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at List Seattle dispensaries.run(List Seattle dispensaries:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572606768176.run(TempTestSuite1572606768176.groovy:36)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[CChromeDriver: chrome on XP (0bc6930cac4c01fddefd6507f47e17b8)] -> xpath: (//div[@class='pac-item'])[1]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'BOJANA', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.SmartWaitWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\BOJANA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52406}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0bc6930cac4c01fddefd6507f47e17b8
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2019-11-01 12:13:32 - [TEST_CASE][FAILED] - Test Cases/Dutchie/List Seattle dispensaries: Test Cases/Dutchie/List Seattle dispensaries FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at List Seattle dispensaries.run(List Seattle dispensaries:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572606768176.run(TempTestSuite1572606768176.groovy:36)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[CChromeDriver: chrome on XP (0bc6930cac4c01fddefd6507f47e17b8)] -> xpath: (//div[@class='pac-item'])[1]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'BOJANA', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.SmartWaitWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\BOJANA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52406}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0bc6930cac4c01fddefd6507f47e17b8
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-11-01 12:13:32 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 12:13:32 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 12:13:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dutchie/Homepage/searchBar"), 5): Object 'Object Repository/Dutchie/Homepage/searchBar' is present
+
+2019-11-01 12:13:33 - [MESSAGE][PASSED] - Object 'Object Repository/Dutchie/Homepage/searchBar' is present
+
+2019-11-01 12:13:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Dutchie/Homepage/searchBar"), "Seattle"): Keys 'Seattle' sent to object: 'Object Repository/Dutchie/Homepage/searchBar'
+
+2019-11-01 12:13:33 - [MESSAGE][PASSED] - Keys 'Seattle' sent to object: 'Object Repository/Dutchie/Homepage/searchBar'
+
+2019-11-01 12:13:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 12:13:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 12:13:35 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Dutchie/Homepage/FirstDispensaryInDropDown"), 2): Scroll to object 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown' successfully
+
+2019-11-01 12:13:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown' successfully
+
+2019-11-01 12:13:35 - [TEST_STEP][FAILED] - click(findTestObject("Dutchie/Homepage/FirstDispensaryInDropDown")): Unable to click on object 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at List Seattle dispensaries.run(List Seattle dispensaries:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572606768176.run(TempTestSuite1572606768176.groovy:36)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[CChromeDriver: chrome on XP (0bc6930cac4c01fddefd6507f47e17b8)] -> xpath: (//div[@class='pac-item'])[1]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'BOJANA', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.SmartWaitWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\BOJANA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52406}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0bc6930cac4c01fddefd6507f47e17b8
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1572000551421.run(Script1572000551421.groovy:31)
+	... 13 more
+)
+
+2019-11-01 12:14:07 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at List Seattle dispensaries.run(List Seattle dispensaries:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572606768176.run(TempTestSuite1572606768176.groovy:36)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[CChromeDriver: chrome on XP (0bc6930cac4c01fddefd6507f47e17b8)] -> xpath: (//div[@class='pac-item'])[1]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'BOJANA', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.SmartWaitWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\BOJANA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52406}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0bc6930cac4c01fddefd6507f47e17b8
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1572000551421.run(Script1572000551421.groovy:31)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Bojana-PC\\git\\Katalon_studio\\Reports\\20191101_121243\\Dispensaries (working hours, filters, search results)\\20191101_121243\\1572606846714.png]]]]></system-out>
+         <system-err><![CDATA[2019-11-01 12:13:32 - [TEST_CASE][FAILED] - Test Cases/Dutchie/List Seattle dispensaries: Test Cases/Dutchie/List Seattle dispensaries FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at List Seattle dispensaries.run(List Seattle dispensaries:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572606768176.run(TempTestSuite1572606768176.groovy:36)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[CChromeDriver: chrome on XP (0bc6930cac4c01fddefd6507f47e17b8)] -> xpath: (//div[@class='pac-item'])[1]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'BOJANA', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.SmartWaitWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\BOJANA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52406}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0bc6930cac4c01fddefd6507f47e17b8
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Get Eugene dispensaries" time="5.685" classname="Test Cases/Dutchie/Get Eugene dispensaries" status="PASSED">
+         <system-out><![CDATA[2019-11-01 12:14:07 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Get Eugene dispensaries: Test Cases/Dutchie/Get Eugene dispensaries
+
+2019-11-01 12:14:07 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 12:14:07 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 12:14:07 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Dutchie/Homepage/EugeneLink"), 2): Scroll to object 'Object Repository/Dutchie/Homepage/EugeneLink' successfully
+
+2019-11-01 12:14:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Dutchie/Homepage/EugeneLink' successfully
+
+2019-11-01 12:14:07 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Homepage/EugeneLink")): Object: 'Object Repository/Dutchie/Homepage/EugeneLink' is clicked on
+
+2019-11-01 12:14:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Homepage/EugeneLink' is clicked on
+
+2019-11-01 12:14:08 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-11-01 12:14:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-01 12:14:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dutchie/Search results/EugeneOR"), 2): Unable to find the element located by 'By.xpath: //*[@class='legacy-rebass__Truncate-mknjx2-2 jtEaXb']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-11-01 12:14:12 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@class='legacy-rebass__Truncate-mknjx2-2 jtEaXb']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-11-01 12:14:12 - [TEST_STEP][PASSED] - verifyTextPresent("Dispensaries ", false): Text 'Dispensaries ' is present on page 
+
+2019-11-01 12:14:13 - [MESSAGE][PASSED] - Text 'Dispensaries ' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Search product" time="8.059" classname="Test Cases/Dutchie/Search product" status="PASSED">
+         <system-out><![CDATA[2019-11-01 12:14:13 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Search product: Test Cases/Dutchie/Search product
+
+2019-11-01 12:14:13 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Get Eugene dispensaries"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Get Eugene dispensaries"), [:], STOP_ON_FAILURE)
+
+2019-11-01 12:14:13 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Get Eugene dispensaries"), [:], STOP_ON_FAILURE)
+
+2019-11-01 12:14:13 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/AmazonOrganics")): Object: 'Object Repository/Dutchie/Search results/AmazonOrganics' is clicked on
+
+2019-11-01 12:14:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/AmazonOrganics' is clicked on
+
+2019-11-01 12:14:13 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-11-01 12:14:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-01 12:14:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Dutchie/Dispensary page/SearchProduct"), 2): Object 'Object Repository/Dutchie/Dispensary page/SearchProduct' is present
+
+2019-11-01 12:14:15 - [MESSAGE][PASSED] - Object 'Object Repository/Dutchie/Dispensary page/SearchProduct' is present
+
+2019-11-01 12:14:15 - [TEST_STEP][PASSED] - setText(findTestObject("Dutchie/Dispensary page/SearchProduct"), "Alien Rock"): Text 'Alien Rock' is set on object 'Object Repository/Dutchie/Dispensary page/SearchProduct'
+
+2019-11-01 12:14:16 - [MESSAGE][PASSED] - Text 'Alien Rock' is set on object 'Object Repository/Dutchie/Dispensary page/SearchProduct'
+
+2019-11-01 12:14:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 12:14:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 12:14:18 - [TEST_STEP][PASSED] - verifyTextPresent("ALIEN ROCK CANDY | WICKED KIND", false): Text 'ALIEN ROCK CANDY | WICKED KIND' is present on page 
+
+2019-11-01 12:14:18 - [MESSAGE][PASSED] - Text 'ALIEN ROCK CANDY | WICKED KIND' is present on page 
+
+2019-11-01 12:14:18 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/ClearSearch")): Object: 'Object Repository/Dutchie/Dispensary page/ClearSearch' is clicked on
+
+2019-11-01 12:14:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/ClearSearch' is clicked on
+
+2019-11-01 12:14:19 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/DutchieLogo")): Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 12:14:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 12:14:20 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-11-01 12:14:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-01 12:14:20 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/DutchieLogo")): Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 12:14:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Check functionality of filters on the search result page" time="25.957" classname="Test Cases/Dutchie/Check functionality of filters on the search result page" status="PASSED">
+         <system-out><![CDATA[2019-11-01 12:14:21 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Check functionality of filters on the search result page: Test Cases/Dutchie/Check functionality of filters on the search result page
+
+2019-11-01 12:14:21 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 12:14:21 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 12:14:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Dutchie/Homepage/searchBar"), "Portland"): Keys 'Portland' sent to object: 'Object Repository/Dutchie/Homepage/searchBar'
+
+2019-11-01 12:14:21 - [MESSAGE][PASSED] - Keys 'Portland' sent to object: 'Object Repository/Dutchie/Homepage/searchBar'
+
+2019-11-01 12:14:21 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Dutchie/Homepage/FirstDispensaryInDropDown"), 2): Scroll to object 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown' successfully
+
+2019-11-01 12:14:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown' successfully
+
+2019-11-01 12:14:22 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Homepage/FirstDispensaryInDropDown")): Object: 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown' is clicked on
+
+2019-11-01 12:14:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown' is clicked on
+
+2019-11-01 12:14:23 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-11-01 12:14:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-01 12:14:23 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/OpenForDelivery")): Object: 'Object Repository/Dutchie/Search results/OpenForDelivery' is clicked on
+
+2019-11-01 12:14:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/OpenForDelivery' is clicked on
+
+2019-11-01 12:14:24 - [TEST_STEP][PASSED] - verifyMatch("We couldn't find any dispensaries!", "We couldn't find any dispensaries!", false): Actual text 'We couldn't find any dispensaries!' and expected text 'We couldn't find any dispensaries!' are matched 
+
+2019-11-01 12:14:24 - [MESSAGE][PASSED] - Actual text 'We couldn't find any dispensaries!' and expected text 'We couldn't find any dispensaries!' are matched 
+
+2019-11-01 12:14:24 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/OpenForDelivery")): Object: 'Object Repository/Dutchie/Search results/OpenForDelivery' is clicked on
+
+2019-11-01 12:14:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/OpenForDelivery' is clicked on
+
+2019-11-01 12:14:24 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-11-01 12:14:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-11-01 12:14:29 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/NoDeliveryMinimum")): Object: 'Object Repository/Dutchie/Search results/NoDeliveryMinimum' is clicked on
+
+2019-11-01 12:14:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/NoDeliveryMinimum' is clicked on
+
+2019-11-01 12:14:30 - [TEST_STEP][PASSED] - verifyMatch("We couldn't find any dispensaries!", "We couldn't find any dispensaries!", false): Actual text 'We couldn't find any dispensaries!' and expected text 'We couldn't find any dispensaries!' are matched 
+
+2019-11-01 12:14:30 - [MESSAGE][PASSED] - Actual text 'We couldn't find any dispensaries!' and expected text 'We couldn't find any dispensaries!' are matched 
+
+2019-11-01 12:14:30 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/NoDeliveryMinimum")): Object: 'Object Repository/Dutchie/Search results/NoDeliveryMinimum' is clicked on
+
+2019-11-01 12:14:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/NoDeliveryMinimum' is clicked on
+
+2019-11-01 12:14:31 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-11-01 12:14:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-11-01 12:14:36 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/AcceptsCreditCards")): Object: 'Object Repository/Dutchie/Search results/AcceptsCreditCards' is clicked on
+
+2019-11-01 12:14:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/AcceptsCreditCards' is clicked on
+
+2019-11-01 12:14:37 - [TEST_STEP][PASSED] - verifyTextNotPresent("We couldn't find any dispensaries!", false, STOP_ON_FAILURE): Text 'We couldn't find any dispensaries!' is not present on page
+
+2019-11-01 12:14:37 - [MESSAGE][PASSED] - Text 'We couldn't find any dispensaries!' is not present on page
+
+2019-11-01 12:14:37 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/AcceptsCreditCards")): Object: 'Object Repository/Dutchie/Search results/AcceptsCreditCards' is clicked on
+
+2019-11-01 12:14:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/AcceptsCreditCards' is clicked on
+
+2019-11-01 12:14:38 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-11-01 12:14:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-11-01 12:14:43 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/FreeDelivery")): Object: 'Object Repository/Dutchie/Search results/FreeDelivery' is clicked on
+
+2019-11-01 12:14:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/FreeDelivery' is clicked on
+
+2019-11-01 12:14:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 12:14:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 12:14:46 - [TEST_STEP][PASSED] - verifyMatch("Diem Delivery", "Diem Delivery", false): Actual text 'Diem Delivery' and expected text 'Diem Delivery' are matched 
+
+2019-11-01 12:14:46 - [MESSAGE][PASSED] - Actual text 'Diem Delivery' and expected text 'Diem Delivery' are matched 
+
+2019-11-01 12:14:46 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/DutchieLogo")): Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 12:14:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Deselect all filters on the search results page" time="16.799" classname="Test Cases/Dutchie/Deselect all filters on the search results page" status="PASSED">
+         <system-out><![CDATA[2019-11-01 12:14:47 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Deselect all filters on the search results page: Test Cases/Dutchie/Deselect all filters on the search results page
+
+2019-11-01 12:14:47 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 12:14:47 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 12:14:47 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Dutchie/Homepage/EugeneLink"), 2): Scroll to object 'Object Repository/Dutchie/Homepage/EugeneLink' successfully
+
+2019-11-01 12:14:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Dutchie/Homepage/EugeneLink' successfully
+
+2019-11-01 12:14:47 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Homepage/EugeneLink")): Object: 'Object Repository/Dutchie/Homepage/EugeneLink' is clicked on
+
+2019-11-01 12:14:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Homepage/EugeneLink' is clicked on
+
+2019-11-01 12:14:48 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-11-01 12:14:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-01 12:14:48 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/OpenForDelivery")): Object: 'Object Repository/Dutchie/Search results/OpenForDelivery' is clicked on
+
+2019-11-01 12:14:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/OpenForDelivery' is clicked on
+
+2019-11-01 12:14:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 12:14:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 12:14:51 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/FreeDelivery")): Object: 'Object Repository/Dutchie/Search results/FreeDelivery' is clicked on
+
+2019-11-01 12:14:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/FreeDelivery' is clicked on
+
+2019-11-01 12:14:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 12:14:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 12:14:53 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/NoDeliveryMinimum")): Object: 'Object Repository/Dutchie/Search results/NoDeliveryMinimum' is clicked on
+
+2019-11-01 12:14:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/NoDeliveryMinimum' is clicked on
+
+2019-11-01 12:14:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 12:14:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 12:14:55 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/AcceptsCreditCards")): Object: 'Object Repository/Dutchie/Search results/AcceptsCreditCards' is clicked on
+
+2019-11-01 12:14:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/AcceptsCreditCards' is clicked on
+
+2019-11-01 12:14:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 12:14:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 12:14:58 - [TEST_STEP][PASSED] - verifyMatch("Amazon Organics", "Amazon Organics", false): Actual text 'Amazon Organics' and expected text 'Amazon Organics' are matched 
+
+2019-11-01 12:14:58 - [MESSAGE][PASSED] - Actual text 'Amazon Organics' and expected text 'Amazon Organics' are matched 
+
+2019-11-01 12:14:58 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/ClearAll")): Object: 'Object Repository/Dutchie/Search results/ClearAll' is clicked on
+
+2019-11-01 12:14:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/ClearAll' is clicked on
+
+2019-11-01 12:14:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 12:15:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 12:15:00 - [TEST_STEP][PASSED] - verifyMatch("Dispensaries (19)", "Dispensaries (19)", false): Actual text 'Dispensaries (19)' and expected text 'Dispensaries (19)' are matched 
+
+2019-11-01 12:15:00 - [MESSAGE][PASSED] - Actual text 'Dispensaries (19)' and expected text 'Dispensaries (19)' are matched 
+
+2019-11-01 12:15:00 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/DutchieLogo")): Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 12:15:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 12:15:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 12:15:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 12:15:03 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/DutchieLogo")): Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 12:15:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Open TJs Willamette dispensary" time="1.028" classname="Test Cases/Dutchie/Open TJs Willamette dispensary" status="PASSED">
+         <system-out><![CDATA[2019-11-01 12:15:03 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Open TJs Willamette dispensary: Test Cases/Dutchie/Open TJs Willamette dispensary
+
+2019-11-01 12:15:04 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 12:15:04 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 12:15:04 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Dutchie/Homepage/TJsWillamette"), 2): Scroll to object 'Object Repository/Dutchie/Homepage/TJsWillamette' successfully
+
+2019-11-01 12:15:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Dutchie/Homepage/TJsWillamette' successfully
+
+2019-11-01 12:15:04 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Homepage/TJsWillamette")): Object: 'Object Repository/Dutchie/Homepage/TJsWillamette' is clicked on
+
+2019-11-01 12:15:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Homepage/TJsWillamette' is clicked on
+
+2019-11-01 12:15:04 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-11-01 12:15:04 - [MESSAGE][PASSED] - Wait for page load successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Try to order item from closed dispensary" time="6.768" classname="Test Cases/Dutchie/Try to order item from closed dispensary" status="PASSED">
+         <system-out><![CDATA[2019-11-01 12:15:04 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Try to order item from closed dispensary: Test Cases/Dutchie/Try to order item from closed dispensary
+
+2019-11-01 12:15:05 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Open TJs Willamette dispensary"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Open TJs Willamette dispensary"), [:], STOP_ON_FAILURE)
+
+2019-11-01 12:15:05 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Open TJs Willamette dispensary"), [:], STOP_ON_FAILURE)
+
+2019-11-01 12:15:05 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/BensonArborRoadDawg")): Object: 'Object Repository/Dutchie/Dispensary page/BensonArborRoadDawg' is clicked on
+
+2019-11-01 12:15:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/BensonArborRoadDawg' is clicked on
+
+2019-11-01 12:15:07 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-11-01 12:15:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 12:15:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 12:15:09 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Product modal/AddToCart_xpath")): Object: 'Object Repository/Dutchie/Product modal/AddToCart_xpath' is clicked on
+
+2019-11-01 12:15:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Product modal/AddToCart_xpath' is clicked on
+
+2019-11-01 12:15:10 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-11-01 12:15:10 - [TEST_STEP][PASSED] - verifyMatch("Sorry, TJ's on Willamette is closed!", "Sorry, TJ's on Willamette is closed!", false): Actual text 'Sorry, TJ's on Willamette is closed!' and expected text 'Sorry, TJ's on Willamette is closed!' are matched 
+
+2019-11-01 12:15:10 - [MESSAGE][PASSED] - Actual text 'Sorry, TJ's on Willamette is closed!' and expected text 'Sorry, TJ's on Willamette is closed!' are matched 
+
+2019-11-01 12:15:10 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Post-checkout modal/GotItButton")): Object: 'Object Repository/Dutchie/Post-checkout modal/GotItButton' is clicked on
+
+2019-11-01 12:15:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Post-checkout modal/GotItButton' is clicked on
+
+2019-11-01 12:15:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Dutchie/Dispensary page/EmptyCart"), "0"): Actual text and expected text of test object 'Object Repository/Dutchie/Dispensary page/EmptyCart' are matched.
+
+2019-11-01 12:15:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Dutchie/Dispensary page/EmptyCart' are matched.
+
+2019-11-01 12:15:11 - [TEST_STEP][NOT_RUN] - click(findTestObject("Dutchie/Dispensary page/DutchieLogo")): NOT_RUN: click(findTestObject("Dutchie/Dispensary page/DutchieLogo"))
+
+2019-11-01 12:15:11 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Dutchie/Dispensary page/DutchieLogo"))]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Filter items from dispensary by Brand" time="10.548" classname="Test Cases/Dutchie/Filter items from dispensary by Brand" status="PASSED">
+         <system-out><![CDATA[2019-11-01 12:15:11 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Filter items from dispensary by Brand: Test Cases/Dutchie/Filter items from dispensary by Brand
+
+2019-11-01 12:15:11 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Open TJs Willamette dispensary"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Open TJs Willamette dispensary"), [:], STOP_ON_FAILURE)
+
+2019-11-01 12:15:11 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Open TJs Willamette dispensary"), [:], STOP_ON_FAILURE)
+
+2019-11-01 12:15:11 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/BrandDropDown")): Object: 'Object Repository/Dutchie/Dispensary page/BrandDropDown' is clicked on
+
+2019-11-01 12:15:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/BrandDropDown' is clicked on
+
+2019-11-01 12:15:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 12:15:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 12:15:14 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Dutchie/Dispensary page/Claim52BrandType"), 2): Scroll to object 'Object Repository/Dutchie/Dispensary page/Claim52BrandType' successfully
+
+2019-11-01 12:15:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Dutchie/Dispensary page/Claim52BrandType' successfully
+
+2019-11-01 12:15:14 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/Claim52BrandType")): Object: 'Object Repository/Dutchie/Dispensary page/Claim52BrandType' is clicked on
+
+2019-11-01 12:15:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/Claim52BrandType' is clicked on
+
+2019-11-01 12:15:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 12:15:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 12:15:17 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/TJsX_Claim52RESTASH_JAR")): Object: 'Object Repository/Dutchie/Dispensary page/TJsX_Claim52RESTASH_JAR' is clicked on
+
+2019-11-01 12:15:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/TJsX_Claim52RESTASH_JAR' is clicked on
+
+2019-11-01 12:15:17 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-11-01 12:15:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 12:15:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 12:15:19 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Product modal/AddToCart_xpath")): Object: 'Object Repository/Dutchie/Product modal/AddToCart_xpath' is clicked on
+
+2019-11-01 12:15:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Product modal/AddToCart_xpath' is clicked on
+
+2019-11-01 12:15:19 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-11-01 12:15:20 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Post-checkout modal/GotItButton")): Object: 'Object Repository/Dutchie/Post-checkout modal/GotItButton' is clicked on
+
+2019-11-01 12:15:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Post-checkout modal/GotItButton' is clicked on
+
+2019-11-01 12:15:20 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/DutchieLogo")): Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 12:15:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 12:15:21 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-11-01 12:15:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-01 12:15:21 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/DutchieLogo")): Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 12:15:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-01 12:12:51 - [TEST_SUITE][FAILED] - Dispensaries (working hours, filters, search results): Test Cases/Dutchie/List Seattle dispensaries FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at List Seattle dispensaries.run(List Seattle dispensaries:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572606768176.run(TempTestSuite1572606768176.groovy:36)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[CChromeDriver: chrome on XP (0bc6930cac4c01fddefd6507f47e17b8)] -> xpath: (//div[@class='pac-item'])[1]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'BOJANA', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.SmartWaitWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\BOJANA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52406}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0bc6930cac4c01fddefd6507f47e17b8
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2019-11-01 12:12:51 - [TEST_SUITE][FAILED] - Dispensaries (working hours, filters, search results): Test Cases/Dutchie/List Seattle dispensaries FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at List Seattle dispensaries.run(List Seattle dispensaries:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572606768176.run(TempTestSuite1572606768176.groovy:36)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[CChromeDriver: chrome on XP (0bc6930cac4c01fddefd6507f47e17b8)] -> xpath: (//div[@class='pac-item'])[1]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'BOJANA', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.SmartWaitWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\BOJANA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52406}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0bc6930cac4c01fddefd6507f47e17b8
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

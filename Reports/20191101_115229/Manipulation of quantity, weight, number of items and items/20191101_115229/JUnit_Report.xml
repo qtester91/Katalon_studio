@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Manipulation of quantity, weight, number of items and items" time="218.516" tests="8" failures="3" errors="0">
+   <testsuite name="Manipulation of quantity, weight, number of items and items" tests="8" failures="3" errors="0" time="218.516" timestamp="2019-11-01 11:52:37" hostname="Bojana-PC - BOJANA" id="Test Suites/Manipulation of quantity, weight, number of items and items">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Bojana-PC\\git\\Katalon_studio\\Reports\\20191101_115229\\Manipulation of quantity, weight, number of items and items\\20191101_115229"/>
+         <property name="logFiles" value="C:\\Users\\Bojana-PC\\git\\Katalon_studio\\Reports\\20191101_115229\\Manipulation of quantity, weight, number of items and items\\20191101_115229\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Bojana-PC\\git\\Katalon_studio\\Reports\\20191101_115229\\Manipulation of quantity, weight, number of items and items\\20191101_115229\\1572605637748.png, C:\\Users\\Bojana-PC\\git\\Katalon_studio\\Reports\\20191101_115229\\Manipulation of quantity, weight, number of items and items\\20191101_115229\\1572605730083.png, C:\\Users\\Bojana-PC\\git\\Katalon_studio\\Reports\\20191101_115229\\Manipulation of quantity, weight, number of items and items\\20191101_115229\\1572605774706.png"/>
+         <property name="hostName" value="Bojana-PC - BOJANA"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.3.1"/>
+         <property name="browser" value="Chrome 78.0.3904.87"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="09b316f35891df82857c19a2e506a80f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Dutchie/Change quantity of product before adding it to the cart" time="28.158" classname="Test Cases/Dutchie/Change quantity of product before adding it to the cart" status="PASSED">
+         <system-out><![CDATA[2019-11-01 11:52:37 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Change quantity of product before adding it to the cart: Test Cases/Dutchie/Change quantity of product before adding it to the cart
+
+2019-11-01 11:52:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Dutchie/Open Blooming Deals dispensary"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Dutchie/Open Blooming Deals dispensary' successfully
+
+2019-11-01 11:52:38 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Open Blooming Deals dispensary: Test Cases/Dutchie/Open Blooming Deals dispensary
+
+2019-11-01 11:52:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Dutchie/Open Dutchie homepage' successfully
+
+2019-11-01 11:52:39 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Open Dutchie homepage: Test Cases/Dutchie/Open Dutchie homepage
+
+2019-11-01 11:52:39 - [TEST_STEP][PASSED] - openBrowser("https://qa.dutchie.dev/home"): Browser is opened with url: 'https://qa.dutchie.dev/home'
+
+2019-11-01 11:52:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-11-01 11:52:39 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-11-01 11:52:49 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.dutchie.dev/home'
+
+2019-11-01 11:52:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-11-01 11:52:53 - [MESSAGE][PASSED] - Current window maximized
+
+2019-11-01 11:52:53 - [TEST_STEP][NOT_RUN] - verifyElementPresent(findTestObject("Dutchie/Homepage/searchBar"), 10): NOT_RUN: verifyElementPresent(findTestObject("Dutchie/Homepage/searchBar"), 10)
+
+2019-11-01 11:52:53 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent(findTestObject("Dutchie/Homepage/searchBar"), 10)
+
+2019-11-01 11:52:53 - [TEST_STEP][NOT_RUN] - closeBrowser(): NOT_RUN: closeBrowser()
+
+2019-11-01 11:52:53 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser()
+
+2019-11-01 11:52:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dutchie/Open Dutchie homepage' successfully
+
+2019-11-01 11:52:53 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Dutchie/Homepage/BloomingDealsLink"), 0): Scroll to object 'Object Repository/Dutchie/Homepage/BloomingDealsLink' successfully
+
+2019-11-01 11:52:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-01 11:52:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Dutchie/Homepage/BloomingDealsLink' successfully
+
+2019-11-01 11:52:54 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Homepage/BloomingDealsLink")): Object: 'Object Repository/Dutchie/Homepage/BloomingDealsLink' is clicked on
+
+2019-11-01 11:52:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Homepage/BloomingDealsLink' is clicked on
+
+2019-11-01 11:52:54 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-11-01 11:52:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-01 11:52:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Dutchie/Open Blooming Deals dispensary' successfully
+
+2019-11-01 11:52:54 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/CannabisNationCherryChem")): Object: 'Object Repository/Dutchie/Dispensary page/CannabisNationCherryChem' is clicked on
+
+2019-11-01 11:52:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/CannabisNationCherryChem' is clicked on
+
+2019-11-01 11:52:57 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-11-01 11:52:57 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Product modal/SelectQuantity")): Object: 'Object Repository/Dutchie/Product modal/SelectQuantity' is clicked on
+
+2019-11-01 11:52:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Product modal/SelectQuantity' is clicked on
+
+2019-11-01 11:52:58 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Dutchie/Product modal/10 items"), 2): Scroll to object 'Object Repository/Dutchie/Product modal/10 items' successfully
+
+2019-11-01 11:52:58 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Dutchie/Product modal/10 items' successfully
+
+2019-11-01 11:52:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 11:53:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 11:53:00 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Product modal/10 items")): Object: 'Object Repository/Dutchie/Product modal/10 items' is clicked on
+
+2019-11-01 11:53:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Product modal/10 items' is clicked on
+
+2019-11-01 11:53:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 11:53:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 11:53:03 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Product modal/AddToCart_xpath")): Object: 'Object Repository/Dutchie/Product modal/AddToCart_xpath' is clicked on
+
+2019-11-01 11:53:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Product modal/AddToCart_xpath' is clicked on
+
+2019-11-01 11:53:03 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-11-01 11:53:04 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Delivery-pickup modal/Pickup")): Object: 'Object Repository/Dutchie/Delivery-pickup modal/Pickup' is clicked on
+
+2019-11-01 11:53:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Delivery-pickup modal/Pickup' is clicked on
+
+2019-11-01 11:53:04 - [TEST_STEP][PASSED] - verifyTextPresent("Qty: 10 - $72.00", false): Text 'Qty: 10 - $72.00' is present on page 
+
+2019-11-01 11:53:05 - [MESSAGE][PASSED] - Text 'Qty: 10 - $72.00' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Remove item from basket" time="52.275" classname="Test Cases/Dutchie/Remove item from basket" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Dutchie/Remove item from basket FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dutchie/Dispensary page/DutchieLogo'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Remove item from basket.run(Remove item from basket:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572605554017.run(TempTestSuite1572605554017.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' located by 'By.xpath: //img[@alt='Dutchie logo']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2019-11-01 11:53:05 - [TEST_CASE][FAILED] - Test Cases/Dutchie/Remove item from basket: Test Cases/Dutchie/Remove item from basket FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dutchie/Dispensary page/DutchieLogo'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Remove item from basket.run(Remove item from basket:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572605554017.run(TempTestSuite1572605554017.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' located by 'By.xpath: //img[@alt='Dutchie logo']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-11-01 11:53:06 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Change weight of item before adding it to the cart"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Change weight of item before adding it to the cart"), [:], STOP_ON_FAILURE)
+
+2019-11-01 11:53:06 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Change weight of item before adding it to the cart"), [:], STOP_ON_FAILURE)
+
+2019-11-01 11:53:06 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/BasketContent")): Object: 'Object Repository/Dutchie/Dispensary page/BasketContent' is clicked on
+
+2019-11-01 11:53:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/BasketContent' is clicked on
+
+2019-11-01 11:53:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 11:53:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 11:53:08 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Shopping cart modal/RemoveIcon")): Object: 'Object Repository/Dutchie/Shopping cart modal/RemoveIcon' is clicked on
+
+2019-11-01 11:53:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Shopping cart modal/RemoveIcon' is clicked on
+
+2019-11-01 11:53:09 - [TEST_STEP][PASSED] - verifyTextPresent("Your cart is empty", false): Text 'Your cart is empty' is present on page 
+
+2019-11-01 11:53:10 - [MESSAGE][PASSED] - Text 'Your cart is empty' is present on page 
+
+2019-11-01 11:53:10 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Shopping cart modal/Close")): Object: 'Object Repository/Dutchie/Shopping cart modal/Close' is clicked on
+
+2019-11-01 11:53:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Shopping cart modal/Close' is clicked on
+
+2019-11-01 11:53:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 11:53:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 11:53:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Dutchie/Dispensary page/EmptyCart"), "0"): Actual text and expected text of test object 'Object Repository/Dutchie/Dispensary page/EmptyCart' are matched.
+
+2019-11-01 11:53:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Dutchie/Dispensary page/EmptyCart' are matched.
+
+2019-11-01 11:53:13 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/DutchieLogo")): Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 11:53:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 11:53:13 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-11-01 11:53:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-01 11:53:13 - [TEST_STEP][FAILED] - click(findTestObject("Dutchie/Dispensary page/DutchieLogo")): Unable to click on object 'Object Repository/Dutchie/Dispensary page/DutchieLogo' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dutchie/Dispensary page/DutchieLogo'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Remove item from basket.run(Remove item from basket:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572605554017.run(TempTestSuite1572605554017.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' located by 'By.xpath: //img[@alt='Dutchie logo']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1572524181712.run(Script1572524181712.groovy:44)
+	... 13 more
+)
+
+2019-11-01 11:53:57 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //img[@alt='Dutchie logo']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-11-01 11:53:58 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Dutchie/Dispensary page/DutchieLogo' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dutchie/Dispensary page/DutchieLogo'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Remove item from basket.run(Remove item from basket:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572605554017.run(TempTestSuite1572605554017.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' located by 'By.xpath: //img[@alt='Dutchie logo']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1572524181712.run(Script1572524181712.groovy:44)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Bojana-PC\\git\\Katalon_studio\\Reports\\20191101_115229\\Manipulation of quantity, weight, number of items and items\\20191101_115229\\1572605637748.png]]]]></system-out>
+         <system-err><![CDATA[2019-11-01 11:53:05 - [TEST_CASE][FAILED] - Test Cases/Dutchie/Remove item from basket: Test Cases/Dutchie/Remove item from basket FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dutchie/Dispensary page/DutchieLogo'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Remove item from basket.run(Remove item from basket:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572605554017.run(TempTestSuite1572605554017.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' located by 'By.xpath: //img[@alt='Dutchie logo']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Open Oregrown from the search results" time="3.981" classname="Test Cases/Dutchie/Open Oregrown from the search results" status="PASSED">
+         <system-out><![CDATA[2019-11-01 11:53:58 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Open Oregrown from the search results: Test Cases/Dutchie/Open Oregrown from the search results
+
+2019-11-01 11:53:58 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 11:53:58 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Open Dutchie homepage"), [:], STOP_ON_FAILURE)
+
+2019-11-01 11:53:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Dutchie/Homepage/searchBar"), "Bend OR"): Keys 'Bend OR' sent to object: 'Object Repository/Dutchie/Homepage/searchBar'
+
+2019-11-01 11:53:59 - [MESSAGE][PASSED] - Keys 'Bend OR' sent to object: 'Object Repository/Dutchie/Homepage/searchBar'
+
+2019-11-01 11:53:59 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Dutchie/Homepage/FirstDispensaryInDropDown"), 2): Scroll to object 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown' successfully
+
+2019-11-01 11:53:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown' successfully
+
+2019-11-01 11:53:59 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Homepage/FirstDispensaryInDropDown")): Object: 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown' is clicked on
+
+2019-11-01 11:54:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Homepage/FirstDispensaryInDropDown' is clicked on
+
+2019-11-01 11:54:00 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-11-01 11:54:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-01 11:54:00 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Search results/Oregrown")): Object: 'Object Repository/Dutchie/Search results/Oregrown' is clicked on
+
+2019-11-01 11:54:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Search results/Oregrown' is clicked on
+
+2019-11-01 11:54:02 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-11-01 11:54:02 - [MESSAGE][PASSED] - Wait for page load successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Change weight of item before adding it to the cart" time="10.896" classname="Test Cases/Dutchie/Change weight of item before adding it to the cart" status="PASSED">
+         <system-out><![CDATA[2019-11-01 11:54:02 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Change weight of item before adding it to the cart: Test Cases/Dutchie/Change weight of item before adding it to the cart
+
+2019-11-01 11:54:02 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Open Oregrown from the search results"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Open Oregrown from the search results"), [:], STOP_ON_FAILURE)
+
+2019-11-01 11:54:02 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Open Oregrown from the search results"), [:], STOP_ON_FAILURE)
+
+2019-11-01 11:54:02 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/AnimalMintsEvansCreek")): Object: 'Object Repository/Dutchie/Dispensary page/AnimalMintsEvansCreek' is clicked on
+
+2019-11-01 11:54:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/AnimalMintsEvansCreek' is clicked on
+
+2019-11-01 11:54:06 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-11-01 11:54:06 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Product modal/Weight")): Object: 'Object Repository/Dutchie/Product modal/Weight' is clicked on
+
+2019-11-01 11:54:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Product modal/Weight' is clicked on
+
+2019-11-01 11:54:07 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2019-11-01 11:54:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 11:54:09 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Dutchie/Product modal/WeightOneOunce"), 2): Scroll to object 'Object Repository/Dutchie/Product modal/WeightOneOunce' successfully
+
+2019-11-01 11:54:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Dutchie/Product modal/WeightOneOunce' successfully
+
+2019-11-01 11:54:09 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Product modal/WeightOneOunce")): Object: 'Object Repository/Dutchie/Product modal/WeightOneOunce' is clicked on
+
+2019-11-01 11:54:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Product modal/WeightOneOunce' is clicked on
+
+2019-11-01 11:54:09 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Product modal/AddToCart_xpath")): Object: 'Object Repository/Dutchie/Product modal/AddToCart_xpath' is clicked on
+
+2019-11-01 11:54:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Product modal/AddToCart_xpath' is clicked on
+
+2019-11-01 11:54:10 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-11-01 11:54:10 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Delivery-pickup modal/Pickup")): Object: 'Object Repository/Dutchie/Delivery-pickup modal/Pickup' is clicked on
+
+2019-11-01 11:54:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Delivery-pickup modal/Pickup' is clicked on
+
+2019-11-01 11:54:11 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-11-01 11:54:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-01 11:54:11 - [TEST_STEP][PASSED] - verifyTextPresent("Qty: 1 - $167.50", false): Text 'Qty: 1 - $167.50' is present on page 
+
+2019-11-01 11:54:13 - [MESSAGE][PASSED] - Text 'Qty: 1 - $167.50' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Remove item from basket" time="8.811" classname="Test Cases/Dutchie/Remove item from basket" status="PASSED">
+         <system-out><![CDATA[2019-11-01 11:54:13 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Remove item from basket: Test Cases/Dutchie/Remove item from basket
+
+2019-11-01 11:54:13 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Change weight of item before adding it to the cart"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Change weight of item before adding it to the cart"), [:], STOP_ON_FAILURE)
+
+2019-11-01 11:54:13 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Change weight of item before adding it to the cart"), [:], STOP_ON_FAILURE)
+
+2019-11-01 11:54:13 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/BasketContent")): Object: 'Object Repository/Dutchie/Dispensary page/BasketContent' is clicked on
+
+2019-11-01 11:54:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/BasketContent' is clicked on
+
+2019-11-01 11:54:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 11:54:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 11:54:15 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Shopping cart modal/RemoveIcon")): Object: 'Object Repository/Dutchie/Shopping cart modal/RemoveIcon' is clicked on
+
+2019-11-01 11:54:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Shopping cart modal/RemoveIcon' is clicked on
+
+2019-11-01 11:54:16 - [TEST_STEP][PASSED] - verifyTextPresent("Your cart is empty", false): Text 'Your cart is empty' is present on page 
+
+2019-11-01 11:54:17 - [MESSAGE][PASSED] - Text 'Your cart is empty' is present on page 
+
+2019-11-01 11:54:17 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Shopping cart modal/Close")): Object: 'Object Repository/Dutchie/Shopping cart modal/Close' is clicked on
+
+2019-11-01 11:54:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Shopping cart modal/Close' is clicked on
+
+2019-11-01 11:54:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 11:54:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 11:54:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Dutchie/Dispensary page/EmptyCart"), "0"): Actual text and expected text of test object 'Object Repository/Dutchie/Dispensary page/EmptyCart' are matched.
+
+2019-11-01 11:54:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Dutchie/Dispensary page/EmptyCart' are matched.
+
+2019-11-01 11:54:20 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/DutchieLogo")): Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 11:54:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 11:54:21 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-11-01 11:54:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-01 11:54:21 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/DutchieLogo")): Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 11:54:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Navigate to BloomingDeals from the homepage" time="0.721" classname="Test Cases/Dutchie/Navigate to BloomingDeals from the homepage" status="PASSED">
+         <system-out><![CDATA[2019-11-01 11:54:21 - [TEST_CASE][PASSED] - Test Cases/Dutchie/Navigate to BloomingDeals from the homepage: Test Cases/Dutchie/Navigate to BloomingDeals from the homepage
+
+2019-11-01 11:54:22 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Homepage/BloomingDealsLink")): Object: 'Object Repository/Dutchie/Homepage/BloomingDealsLink' is clicked on
+
+2019-11-01 11:54:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Homepage/BloomingDealsLink' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Add multiple items to the basket" time="67.928" classname="Test Cases/Dutchie/Add multiple items to the basket" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Dutchie/Add multiple items to the basket FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dutchie/Homepage/BloomingDealsLink'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Add multiple items to the basket.run(Add multiple items to the basket:96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572605554017.run(TempTestSuite1572605554017.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dutchie/Homepage/BloomingDealsLink' located by 'By.xpath: //*[text()='Blooming Deals']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2019-11-01 11:54:22 - [TEST_CASE][FAILED] - Test Cases/Dutchie/Add multiple items to the basket: Test Cases/Dutchie/Add multiple items to the basket FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dutchie/Homepage/BloomingDealsLink'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Add multiple items to the basket.run(Add multiple items to the basket:96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572605554017.run(TempTestSuite1572605554017.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dutchie/Homepage/BloomingDealsLink' located by 'By.xpath: //*[text()='Blooming Deals']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-11-01 11:54:22 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Open Blooming Deals dispensary"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Open Blooming Deals dispensary"), [:], STOP_ON_FAILURE)
+
+2019-11-01 11:54:22 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Open Blooming Deals dispensary"), [:], STOP_ON_FAILURE)
+
+2019-11-01 11:54:22 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/CannabisNationItem")): Object: 'Object Repository/Dutchie/Dispensary page/CannabisNationItem' is clicked on
+
+2019-11-01 11:54:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/CannabisNationItem' is clicked on
+
+2019-11-01 11:54:24 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-11-01 11:54:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 11:54:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 11:54:26 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Product modal/AddToCart_xpath")): Object: 'Object Repository/Dutchie/Product modal/AddToCart_xpath' is clicked on
+
+2019-11-01 11:54:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Product modal/AddToCart_xpath' is clicked on
+
+2019-11-01 11:54:27 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-11-01 11:54:27 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Delivery-pickup modal/Pickup")): Object: 'Object Repository/Dutchie/Delivery-pickup modal/Pickup' is clicked on
+
+2019-11-01 11:54:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Delivery-pickup modal/Pickup' is clicked on
+
+2019-11-01 11:54:27 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2019-11-01 11:54:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 11:54:29 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/CannabisNationCherryChem")): Object: 'Object Repository/Dutchie/Dispensary page/CannabisNationCherryChem' is clicked on
+
+2019-11-01 11:54:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/CannabisNationCherryChem' is clicked on
+
+2019-11-01 11:54:30 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-11-01 11:54:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 11:54:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 11:54:32 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Product modal/AddToCart_xpath")): Object: 'Object Repository/Dutchie/Product modal/AddToCart_xpath' is clicked on
+
+2019-11-01 11:54:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Product modal/AddToCart_xpath' is clicked on
+
+2019-11-01 11:54:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 11:54:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 11:54:34 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/CannabisNationCherryPieOG")): Object: 'Object Repository/Dutchie/Dispensary page/CannabisNationCherryPieOG' is clicked on
+
+2019-11-01 11:54:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/CannabisNationCherryPieOG' is clicked on
+
+2019-11-01 11:54:35 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-11-01 11:54:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-01 11:54:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-01 11:54:37 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Product modal/AddToCart_xpath")): Object: 'Object Repository/Dutchie/Product modal/AddToCart_xpath' is clicked on
+
+2019-11-01 11:54:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Product modal/AddToCart_xpath' is clicked on
+
+2019-11-01 11:54:37 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/BasketContent")): Object: 'Object Repository/Dutchie/Dispensary page/BasketContent' is clicked on
+
+2019-11-01 11:54:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/BasketContent' is clicked on
+
+2019-11-01 11:54:38 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-11-01 11:54:38 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Shopping cart modal/ProceedToCheckout")): Object: 'Object Repository/Dutchie/Shopping cart modal/ProceedToCheckout' is clicked on
+
+2019-11-01 11:54:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Shopping cart modal/ProceedToCheckout' is clicked on
+
+2019-11-01 11:54:38 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-11-01 11:54:38 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-01 11:54:38 - [TEST_STEP][PASSED] - verifyMatch("Cannabis Nation | ATF | 1g", "Cannabis Nation | ATF | 1g", false): Actual text 'Cannabis Nation | ATF | 1g' and expected text 'Cannabis Nation | ATF | 1g' are matched 
+
+2019-11-01 11:54:38 - [MESSAGE][PASSED] - Actual text 'Cannabis Nation | ATF | 1g' and expected text 'Cannabis Nation | ATF | 1g' are matched 
+
+2019-11-01 11:54:38 - [TEST_STEP][PASSED] - verifyMatch("Cannabis Nation | Cherry Chem | 1g", "Cannabis Nation | Cherry Chem | 1g", false): Actual text 'Cannabis Nation | Cherry Chem | 1g' and expected text 'Cannabis Nation | Cherry Chem | 1g' are matched 
+
+2019-11-01 11:54:38 - [MESSAGE][PASSED] - Actual text 'Cannabis Nation | Cherry Chem | 1g' and expected text 'Cannabis Nation | Cherry Chem | 1g' are matched 
+
+2019-11-01 11:54:38 - [TEST_STEP][PASSED] - verifyMatch("Cannabis Nation | Cherry Pie OG | 1g", "Cannabis Nation | Cherry Pie OG | 1g", false): Actual text 'Cannabis Nation | Cherry Pie OG | 1g' and expected text 'Cannabis Nation | Cherry Pie OG | 1g' are matched 
+
+2019-11-01 11:54:38 - [MESSAGE][PASSED] - Actual text 'Cannabis Nation | Cherry Pie OG | 1g' and expected text 'Cannabis Nation | Cherry Pie OG | 1g' are matched 
+
+2019-11-01 11:54:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Dutchie/Checkout/FirstNameCheckout"), "firstname"): Keys 'firstname' sent to object: 'Object Repository/Dutchie/Checkout/FirstNameCheckout'
+
+2019-11-01 11:54:40 - [MESSAGE][PASSED] - Keys 'firstname' sent to object: 'Object Repository/Dutchie/Checkout/FirstNameCheckout'
+
+2019-11-01 11:54:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Dutchie/Checkout/LastNameCheckout"), "lastname"): Keys 'lastname' sent to object: 'Object Repository/Dutchie/Checkout/LastNameCheckout'
+
+2019-11-01 11:54:40 - [MESSAGE][PASSED] - Keys 'lastname' sent to object: 'Object Repository/Dutchie/Checkout/LastNameCheckout'
+
+2019-11-01 11:54:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Dutchie/Checkout/PhoneCheckout"), "(201) 677-4567"): Keys '(201) 677-4567' sent to object: 'Object Repository/Dutchie/Checkout/PhoneCheckout'
+
+2019-11-01 11:54:41 - [MESSAGE][PASSED] - Keys '(201) 677-4567' sent to object: 'Object Repository/Dutchie/Checkout/PhoneCheckout'
+
+2019-11-01 11:54:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Dutchie/Checkout/BirthdateCheckout"), "05/25/1974"): Keys '05/25/1974' sent to object: 'Object Repository/Dutchie/Checkout/BirthdateCheckout'
+
+2019-11-01 11:54:41 - [MESSAGE][PASSED] - Keys '05/25/1974' sent to object: 'Object Repository/Dutchie/Checkout/BirthdateCheckout'
+
+2019-11-01 11:54:41 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Checkout/PlaceOrder")): Object: 'Object Repository/Dutchie/Checkout/PlaceOrder' is clicked on
+
+2019-11-01 11:54:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Checkout/PlaceOrder' is clicked on
+
+2019-11-01 11:54:42 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2019-11-01 11:54:42 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Post-checkout modal/NoThanks")): Object: 'Object Repository/Dutchie/Post-checkout modal/NoThanks' is clicked on
+
+2019-11-01 11:54:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Post-checkout modal/NoThanks' is clicked on
+
+2019-11-01 11:54:44 - [TEST_STEP][PASSED] - click(findTestObject("Dutchie/Dispensary page/DutchieLogo")): Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 11:54:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' is clicked on
+
+2019-11-01 11:54:45 - [TEST_STEP][FAILED] - click(findTestObject("Dutchie/Homepage/BloomingDealsLink")): Unable to click on object 'Object Repository/Dutchie/Homepage/BloomingDealsLink' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dutchie/Homepage/BloomingDealsLink'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Add multiple items to the basket.run(Add multiple items to the basket:96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572605554017.run(TempTestSuite1572605554017.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dutchie/Homepage/BloomingDealsLink' located by 'By.xpath: //*[text()='Blooming Deals']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1572589768244.run(Script1572589768244.groovy:96)
+	... 13 more
+)
+
+2019-11-01 11:55:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[text()='Blooming Deals']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-11-01 11:55:30 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Dutchie/Homepage/BloomingDealsLink' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dutchie/Homepage/BloomingDealsLink'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Add multiple items to the basket.run(Add multiple items to the basket:96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572605554017.run(TempTestSuite1572605554017.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dutchie/Homepage/BloomingDealsLink' located by 'By.xpath: //*[text()='Blooming Deals']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1572589768244.run(Script1572589768244.groovy:96)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Bojana-PC\\git\\Katalon_studio\\Reports\\20191101_115229\\Manipulation of quantity, weight, number of items and items\\20191101_115229\\1572605730083.png]]]]></system-out>
+         <system-err><![CDATA[2019-11-01 11:54:22 - [TEST_CASE][FAILED] - Test Cases/Dutchie/Add multiple items to the basket: Test Cases/Dutchie/Add multiple items to the basket FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dutchie/Homepage/BloomingDealsLink'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Add multiple items to the basket.run(Add multiple items to the basket:96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572605554017.run(TempTestSuite1572605554017.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dutchie/Homepage/BloomingDealsLink' located by 'By.xpath: //*[text()='Blooming Deals']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dutchie/Place order when user is under 21 years" time="44.588" classname="Test Cases/Dutchie/Place order when user is under 21 years" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Dutchie/Place order when user is under 21 years FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dutchie/Dispensary page/CannabisNationItem'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Place order when user is under 21 years.run(Place order when user is under 21 years:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572605554017.run(TempTestSuite1572605554017.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dutchie/Dispensary page/CannabisNationItem' located by 'By.xpath: //*[text()='Cannabis Nation | ATF']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2019-11-01 11:55:30 - [TEST_CASE][FAILED] - Test Cases/Dutchie/Place order when user is under 21 years: Test Cases/Dutchie/Place order when user is under 21 years FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dutchie/Dispensary page/CannabisNationItem'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Place order when user is under 21 years.run(Place order when user is under 21 years:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572605554017.run(TempTestSuite1572605554017.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dutchie/Dispensary page/CannabisNationItem' located by 'By.xpath: //*[text()='Cannabis Nation | ATF']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-11-01 11:55:30 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Dutchie/Open Blooming Deals dispensary"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Dutchie/Open Blooming Deals dispensary"), [:], STOP_ON_FAILURE)
+
+2019-11-01 11:55:30 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Dutchie/Open Blooming Deals dispensary"), [:], STOP_ON_FAILURE)
+
+2019-11-01 11:55:30 - [TEST_STEP][FAILED] - click(findTestObject("Dutchie/Dispensary page/CannabisNationItem")): Unable to click on object 'Object Repository/Dutchie/Dispensary page/CannabisNationItem' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dutchie/Dispensary page/CannabisNationItem'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Place order when user is under 21 years.run(Place order when user is under 21 years:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572605554017.run(TempTestSuite1572605554017.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dutchie/Dispensary page/CannabisNationItem' located by 'By.xpath: //*[text()='Cannabis Nation | ATF']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1572594678345.run(Script1572594678345.groovy:21)
+	... 13 more
+)
+
+2019-11-01 11:56:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[text()='Cannabis Nation | ATF']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-11-01 11:56:15 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Dutchie/Dispensary page/CannabisNationItem' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dutchie/Dispensary page/CannabisNationItem'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Place order when user is under 21 years.run(Place order when user is under 21 years:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572605554017.run(TempTestSuite1572605554017.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dutchie/Dispensary page/CannabisNationItem' located by 'By.xpath: //*[text()='Cannabis Nation | ATF']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1572594678345.run(Script1572594678345.groovy:21)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Bojana-PC\\git\\Katalon_studio\\Reports\\20191101_115229\\Manipulation of quantity, weight, number of items and items\\20191101_115229\\1572605774706.png]]]]></system-out>
+         <system-err><![CDATA[2019-11-01 11:55:30 - [TEST_CASE][FAILED] - Test Cases/Dutchie/Place order when user is under 21 years: Test Cases/Dutchie/Place order when user is under 21 years FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dutchie/Dispensary page/CannabisNationItem'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Place order when user is under 21 years.run(Place order when user is under 21 years:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572605554017.run(TempTestSuite1572605554017.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dutchie/Dispensary page/CannabisNationItem' located by 'By.xpath: //*[text()='Cannabis Nation | ATF']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-01 11:52:37 - [TEST_SUITE][FAILED] - Manipulation of quantity, weight, number of items and items: Test Cases/Dutchie/Remove item from basket FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dutchie/Dispensary page/DutchieLogo'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Remove item from basket.run(Remove item from basket:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572605554017.run(TempTestSuite1572605554017.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' located by 'By.xpath: //img[@alt='Dutchie logo']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2019-11-01 11:52:37 - [TEST_SUITE][FAILED] - Manipulation of quantity, weight, number of items and items: Test Cases/Dutchie/Remove item from basket FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dutchie/Dispensary page/DutchieLogo'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Remove item from basket.run(Remove item from basket:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572605554017.run(TempTestSuite1572605554017.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dutchie/Dispensary page/DutchieLogo' located by 'By.xpath: //img[@alt='Dutchie logo']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

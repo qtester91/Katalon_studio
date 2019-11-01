@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Filter items from dispensary by Brand</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eb33b90c-51da-467d-8548-5203e2ac4262</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Place order for logged in user</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>20c33a02-dea5-417e-8639-e98b9de883ac</testCaseGuid>
+</TestCaseEntity>

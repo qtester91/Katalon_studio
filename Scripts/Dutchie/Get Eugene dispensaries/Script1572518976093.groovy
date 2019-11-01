@@ -18,14 +18,17 @@ import internal.GlobalVariable as GlobalVariable
 not_run: WebUI.callTestCase(findTestCase('Dutchie/Open Dutchie homepage'), [:], FailureHandling.STOP_ON_FAILURE)
 
 //Scroll to section where Eugene link is located
+
 WebUI.scrollToElement(findTestObject('Dutchie/Homepage/EugeneLink'), 2)
 
 //Click on 'Eugene Dispensaries' link
+
 WebUI.click(findTestObject('Dutchie/Homepage/EugeneLink'))
 
 WebUI.waitForPageLoad(2)
 
 //Verify that correct page opens via location in the header and text on the page
+
 WebUI.verifyElementPresent(findTestObject('Dutchie/Search results/EugeneOR'), 2)
 
 WebUI.verifyTextPresent('Dispensaries ', false)

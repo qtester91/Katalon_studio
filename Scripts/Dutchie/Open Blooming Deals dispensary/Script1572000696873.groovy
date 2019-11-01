@@ -18,11 +18,9 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('Dutchie/Open Dutchie homepage'), [:], FailureHandling.STOP_ON_FAILURE)
 
 //Scroll to the part of the page where Blooming Deals link is located
-
 WebUI.scrollToElement(findTestObject('Dutchie/Homepage/BloomingDealsLink'), 0)
 
 //Click on Blooming Deals link
-
 WebUI.click(findTestObject('Dutchie/Homepage/BloomingDealsLink'))
 
 WebUI.waitForPageLoad(5)
